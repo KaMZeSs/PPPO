@@ -21,6 +21,6 @@ public:
 
 private:
     std::vector<std::string> notes; // Список заметок в разделе
-};
+}; 
 
 #endif /* SECTION_H */
