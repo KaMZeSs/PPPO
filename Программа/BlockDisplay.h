@@ -7,12 +7,12 @@
 class BlockDisplay
 {
 public:
-    // Добавляет новый блок на страницу
-    // Вход: текст блока (text)
+    /// @brief Добавляет новый блок на страницу
+    /// @param text текст блока
     void addBlock(const std::string &text);
 
-    // Удаляет указанный блок со страницы
-    // Вход: индекс блока (index)
+    /// @brief Удаляет указанный блок со страницы
+    /// @param index индекс блока
     void removeBlock(int index);
 
     // Возвращает все блоки на странице
