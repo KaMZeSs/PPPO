@@ -1,0 +1,50 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_graphic_notes_creator" xml:lang="en-US">
+<title>GraphicNotesCreator Class Reference</title>
+<indexterm><primary>GraphicNotesCreator</primary></indexterm>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_graphic_notes_creator_1a79080e799a8053d8dfff4db215ceef16">createImageNote</link> (<link linkend="_class_graphic_note">GraphicNote</link> note)</para>
+
+<para>Создает новую графическую заметку </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_graphic_notes_creator_1a79080e799a8053d8dfff4db215ceef16"/><section>
+    <title>createImageNote()</title>
+<indexterm><primary>createImageNote</primary><secondary>GraphicNotesCreator</secondary></indexterm>
+<indexterm><primary>GraphicNotesCreator</primary><secondary>createImageNote</secondary></indexterm>
+<para><computeroutput>void GraphicNotesCreator::createImageNote (<link linkend="_class_graphic_note">GraphicNote</link> note)</computeroutput></para><para>
+
+<para>Создает новую графическую заметку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>note</entry><entry>
+<para>Данные заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+GraphicNotesCreator.h</section>
+</section>

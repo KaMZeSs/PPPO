@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_equation" xml:lang="en-US">
+<title>Equation Class Reference</title>
+<indexterm><primary>Equation</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Equation.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_equation_1accbeb5c49b10a05d6f903a1bc8a66e54">createEquation</link> (const std::string &amp;equation)</para>
+
+<para>Создает новое уравнение </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_equation_1aa43bd4c0f7b4252507dbd32b8acebe29">editEquation</link> (int index, const std::string &amp;newEquation)</para>
+
+<para>Редактирует указанное уравнение </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_equation_1a89a0151db9f3bc8a72e949c5ede0197f">deleteEquation</link> (int index)</para>
+
+<para>Удаляет указанное уравнение </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_equation_1accbeb5c49b10a05d6f903a1bc8a66e54"/><section>
+    <title>createEquation()</title>
+<indexterm><primary>createEquation</primary><secondary>Equation</secondary></indexterm>
+<indexterm><primary>Equation</primary><secondary>createEquation</secondary></indexterm>
+<para><computeroutput>int Equation::createEquation (const std::string &amp; equation)</computeroutput></para><para>
+
+<para>Создает новое уравнение </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>equation</entry><entry>
+<para>Строка, представляющая уравнение </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Номер уравнения </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_equation_1a89a0151db9f3bc8a72e949c5ede0197f"/><section>
+    <title>deleteEquation()</title>
+<indexterm><primary>deleteEquation</primary><secondary>Equation</secondary></indexterm>
+<indexterm><primary>Equation</primary><secondary>deleteEquation</secondary></indexterm>
+<para><computeroutput>void Equation::deleteEquation (int index)</computeroutput></para><para>
+
+<para>Удаляет указанное уравнение </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>индекс уравнения </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_equation_1aa43bd4c0f7b4252507dbd32b8acebe29"/><section>
+    <title>editEquation()</title>
+<indexterm><primary>editEquation</primary><secondary>Equation</secondary></indexterm>
+<indexterm><primary>Equation</primary><secondary>editEquation</secondary></indexterm>
+<para><computeroutput>void Equation::editEquation (int index, const std::string &amp; newEquation)</computeroutput></para><para>
+
+<para>Редактирует указанное уравнение </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс уравнения </para>
+</entry>
+                            </row>
+                            <row>
+<entry>newEquation</entry><entry>
+<para>Новое уравнение </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Equation.h</section>
+</section>

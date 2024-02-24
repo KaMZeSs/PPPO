@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__section_8h_source" xml:lang="en-US">
+<title>Section.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;SECTION_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;SECTION_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_section">Section</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+13 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_section_1a13d3ca83abdf16bd9ae279098494cb57">addNote</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;text);
+14 
+17 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_section_1a997028e76c31af48d0cb7adb8e31fa9d">removeNote</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+18 
+21 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;<link linkend="_class_section_1abae09c7da9c47d66f1c0193f7197f619">getAllNotes</link>();
+22 
+23 <emphasis role="keyword">private</emphasis>:
+25 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;notes;
+26 };&#32;
+27 
+28 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;SECTION_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

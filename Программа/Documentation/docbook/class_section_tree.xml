@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_section_tree" xml:lang="en-US">
+<title>SectionTree Class Reference</title>
+<indexterm><primary>SectionTree</primary></indexterm>
+<para>
+
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;SectionTree.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_section_tree_1a762b492c015a59a613af7d6064095464">addSection</link> (const std::string &amp;name)</para>
+
+<para>Добавляет новый раздел в дерево разделов </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_section_tree_1a3404cebb20a7176ca49b0bd3e52eadcb">removeSection</link> (int index)</para>
+
+<para>Удаляет указанный раздел из дерева </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_section_tree_1a44d94f8b42538b4bf12f9cb419221a36">getAllSections</link> ()</para>
+
+<para>Возвращает список всех разделов </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_section_tree_1a762b492c015a59a613af7d6064095464"/><section>
+    <title>addSection()</title>
+<indexterm><primary>addSection</primary><secondary>SectionTree</secondary></indexterm>
+<indexterm><primary>SectionTree</primary><secondary>addSection</secondary></indexterm>
+<para><computeroutput>void SectionTree::addSection (const std::string &amp; name)</computeroutput></para><para>
+
+<para>Добавляет новый раздел в дерево разделов </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>Название раздела </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_section_tree_1a44d94f8b42538b4bf12f9cb419221a36"/><section>
+    <title>getAllSections()</title>
+<indexterm><primary>getAllSections</primary><secondary>SectionTree</secondary></indexterm>
+<indexterm><primary>SectionTree</primary><secondary>getAllSections</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; SectionTree::getAllSections ( )</computeroutput></para><para>
+
+<para>Возвращает список всех разделов </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор строк с названиями разделов </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_section_tree_1a3404cebb20a7176ca49b0bd3e52eadcb"/><section>
+    <title>removeSection()</title>
+<indexterm><primary>removeSection</primary><secondary>SectionTree</secondary></indexterm>
+<indexterm><primary>SectionTree</primary><secondary>removeSection</secondary></indexterm>
+<para><computeroutput>void SectionTree::removeSection (int index)</computeroutput></para><para>
+
+<para>Удаляет указанный раздел из дерева </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс раздела </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SectionTree.h</section>
+</section>

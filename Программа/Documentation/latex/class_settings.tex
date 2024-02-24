@@ -1,0 +1,140 @@
+\doxysection{Settings Class Reference}
+\hypertarget{class_settings}{}\label{class_settings}\index{Settings@{Settings}}
+
+
+Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя  
+
+
+
+
+{\ttfamily \#include $<$Settings.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+bool \mbox{\hyperlink{class_settings_a14a73e547f010d746afca65ee1e43a6f}{set\+Language}} (const std\+::string \&language)
+\begin{DoxyCompactList}\small\item\em Устанавливает новый язык приложения \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_settings_a93eee24ccd588d22667c4c6b0f79cfcc}{set\+Default\+Font\+Size}} (int font\+Size)
+\begin{DoxyCompactList}\small\item\em Устанавливает размер шрифта по умолчанию \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_settings_a56600c10efd7cd151ed0bd89cbdb3f00}{set\+Theme}} (const std\+::string \&theme\+Name)
+\begin{DoxyCompactList}\small\item\em Устанавливает тему оформления приложения \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_settings_acd108b9a23c60cc970e90c0f1832b594}{add\+Save\+Path}} (const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Добавляет новый путь для сохранения файлов \end{DoxyCompactList}\item 
+bool \mbox{\hyperlink{class_settings_aeb3dbe15f800039cc22dbda08578c961}{remove\+Save\+Path}} (const std\+::string \&path)
+\begin{DoxyCompactList}\small\item\em Удаляет указанный путь для сохранения файлов \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_settings_a8c5b3771fd3a0400af03a84ae3f08d6f}{get\+Available\+Themes}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список доступных тем оформления \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_settings_acd108b9a23c60cc970e90c0f1832b594}\label{class_settings_acd108b9a23c60cc970e90c0f1832b594} 
+\index{Settings@{Settings}!addSavePath@{addSavePath}}
+\index{addSavePath@{addSavePath}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{addSavePath()}{addSavePath()}}
+{\footnotesize\ttfamily bool Settings\+::add\+Save\+Path (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый путь для сохранения файлов 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Путь к папке \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если путь успешно добавлен, false в противном случае 
+\end{DoxyReturn}
+\Hypertarget{class_settings_a8c5b3771fd3a0400af03a84ae3f08d6f}\label{class_settings_a8c5b3771fd3a0400af03a84ae3f08d6f} 
+\index{Settings@{Settings}!getAvailableThemes@{getAvailableThemes}}
+\index{getAvailableThemes@{getAvailableThemes}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{getAvailableThemes()}{getAvailableThemes()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Settings\+::get\+Available\+Themes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает список доступных тем оформления 
+
+\begin{DoxyReturn}{Returns}
+Вектор строк с названиями тем 
+\end{DoxyReturn}
+\Hypertarget{class_settings_aeb3dbe15f800039cc22dbda08578c961}\label{class_settings_aeb3dbe15f800039cc22dbda08578c961} 
+\index{Settings@{Settings}!removeSavePath@{removeSavePath}}
+\index{removeSavePath@{removeSavePath}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{removeSavePath()}{removeSavePath()}}
+{\footnotesize\ttfamily bool Settings\+::remove\+Save\+Path (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{path }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанный путь для сохранения файлов 
+
+
+\begin{DoxyParams}{Parameters}
+{\em path} & Путь к папке \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если путь успешно удален, false в противном случае 
+\end{DoxyReturn}
+\Hypertarget{class_settings_a93eee24ccd588d22667c4c6b0f79cfcc}\label{class_settings_a93eee24ccd588d22667c4c6b0f79cfcc} 
+\index{Settings@{Settings}!setDefaultFontSize@{setDefaultFontSize}}
+\index{setDefaultFontSize@{setDefaultFontSize}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{setDefaultFontSize()}{setDefaultFontSize()}}
+{\footnotesize\ttfamily bool Settings\+::set\+Default\+Font\+Size (\begin{DoxyParamCaption}\item[{int}]{font\+Size }\end{DoxyParamCaption})}
+
+
+
+Устанавливает размер шрифта по умолчанию 
+
+
+\begin{DoxyParams}{Parameters}
+{\em font\+Size} & Размер шрифта \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если размер шрифта успешно изменен, false в противном случае 
+\end{DoxyReturn}
+\Hypertarget{class_settings_a14a73e547f010d746afca65ee1e43a6f}\label{class_settings_a14a73e547f010d746afca65ee1e43a6f} 
+\index{Settings@{Settings}!setLanguage@{setLanguage}}
+\index{setLanguage@{setLanguage}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{setLanguage()}{setLanguage()}}
+{\footnotesize\ttfamily bool Settings\+::set\+Language (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{language }\end{DoxyParamCaption})}
+
+
+
+Устанавливает новый язык приложения 
+
+
+\begin{DoxyParams}{Parameters}
+{\em language} & Новый язык \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если язык успешно изменен, false в противном случае 
+\end{DoxyReturn}
+\Hypertarget{class_settings_a56600c10efd7cd151ed0bd89cbdb3f00}\label{class_settings_a56600c10efd7cd151ed0bd89cbdb3f00} 
+\index{Settings@{Settings}!setTheme@{setTheme}}
+\index{setTheme@{setTheme}!Settings@{Settings}}
+\doxysubsubsection{\texorpdfstring{setTheme()}{setTheme()}}
+{\footnotesize\ttfamily bool Settings\+::set\+Theme (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{theme\+Name }\end{DoxyParamCaption})}
+
+
+
+Устанавливает тему оформления приложения 
+
+
+\begin{DoxyParams}{Parameters}
+{\em theme\+Name} & Название темы \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true, если тема успешно установлена, false в противном случае 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Settings.\+h\end{DoxyCompactItemize}

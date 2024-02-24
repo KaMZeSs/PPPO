@@ -1,0 +1,74 @@
+\doxysection{Section Class Reference}
+\hypertarget{class_section}{}\label{class_section}\index{Section@{Section}}
+
+
+Представляет собой отдельный раздел в дереве разделов, содержащий его название, цвет закладки и ссылку на соответствующую страницу с заметками  
+
+
+
+
+{\ttfamily \#include $<$Section.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_section_a13d3ca83abdf16bd9ae279098494cb57}{add\+Note}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Добавляет новую заметку в раздел \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_section_a997028e76c31af48d0cb7adb8e31fa9d}{remove\+Note}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанную заметку из раздела \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_section_abae09c7da9c47d66f1c0193f7197f619}{get\+All\+Notes}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает все заметки в разделе \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Представляет собой отдельный раздел в дереве разделов, содержащий его название, цвет закладки и ссылку на соответствующую страницу с заметками 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_section_a13d3ca83abdf16bd9ae279098494cb57}\label{class_section_a13d3ca83abdf16bd9ae279098494cb57} 
+\index{Section@{Section}!addNote@{addNote}}
+\index{addNote@{addNote}!Section@{Section}}
+\doxysubsubsection{\texorpdfstring{addNote()}{addNote()}}
+{\footnotesize\ttfamily void Section\+::add\+Note (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Добавляет новую заметку в раздел 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & Текст заметки \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_section_abae09c7da9c47d66f1c0193f7197f619}\label{class_section_abae09c7da9c47d66f1c0193f7197f619} 
+\index{Section@{Section}!getAllNotes@{getAllNotes}}
+\index{getAllNotes@{getAllNotes}!Section@{Section}}
+\doxysubsubsection{\texorpdfstring{getAllNotes()}{getAllNotes()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Section\+::get\+All\+Notes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает все заметки в разделе 
+
+\begin{DoxyReturn}{Returns}
+Bектор строк с текстами заметок 
+\end{DoxyReturn}
+\Hypertarget{class_section_a997028e76c31af48d0cb7adb8e31fa9d}\label{class_section_a997028e76c31af48d0cb7adb8e31fa9d} 
+\index{Section@{Section}!removeNote@{removeNote}}
+\index{removeNote@{removeNote}!Section@{Section}}
+\doxysubsubsection{\texorpdfstring{removeNote()}{removeNote()}}
+{\footnotesize\ttfamily void Section\+::remove\+Note (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанную заметку из раздела 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс заметки \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Section.\+h\end{DoxyCompactItemize}

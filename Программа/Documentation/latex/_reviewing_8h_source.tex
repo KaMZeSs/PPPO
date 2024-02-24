@@ -1,0 +1,30 @@
+\doxysection{Reviewing.\+h}
+\hypertarget{_reviewing_8h_source}{}\label{_reviewing_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ REVIEWING\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ REVIEWING\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ }
+\DoxyCodeLine{00007\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_reviewing}{Reviewing}}}
+\DoxyCodeLine{00008\ \{}
+\DoxyCodeLine{00009\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{double}\ \mbox{\hyperlink{class_reviewing_aab3fe27139bb299d829599ec73239bd4}{checkReadability}}(\textcolor{keyword}{const}\ std::string\ \&text);}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00015\ \ \ \ \ \textcolor{comment}{//\ Проверяет\ орфографию\ в\ тексте}}
+\DoxyCodeLine{00016\ \ \ \ \ \textcolor{comment}{//\ Вход:\ текст\ заметки\ (text)}}
+\DoxyCodeLine{00017\ \ \ \ \ \textcolor{comment}{//\ Выход:\ список\ ошибок\ орфографии}}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00022\ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{class_reviewing_a0f58a71fd7bfe15a2bb88b787b4b471a}{checkSpelling}}(\textcolor{keyword}{const}\ std::string\ \&text);}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00028\ \ \ \ \ std::string\ \mbox{\hyperlink{class_reviewing_afd2d80caf7e23f741aef9e5ea4d12c63}{translateText}}(\textcolor{keyword}{const}\ std::string\ \&text,\ \textcolor{keyword}{const}\ std::string\ \&language);}
+\DoxyCodeLine{00029\ }
+\DoxyCodeLine{00033\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_reviewing_a9d3f07c0c3a66c1c08ef2242c8eddef0}{setPassword}}(\textcolor{keywordtype}{int}\ pageIndex,\ \textcolor{keyword}{const}\ std::string\ \&password);}
+\DoxyCodeLine{00034\ }
+\DoxyCodeLine{00035\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00037\ \ \ \ \ \textcolor{keywordtype}{double}\ readabilityScore;}
+\DoxyCodeLine{00038\ \};}
+\DoxyCodeLine{00039\ }
+\DoxyCodeLine{00040\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ REVIEWING\_H\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_notes_creator" xml:lang="en-US">
+<title>TextNotesCreator Class Reference</title>
+<indexterm><primary>TextNotesCreator</primary></indexterm>
+<para>
+
+<para>Создатель текстовых заметок </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;TextNotesCreator.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_text_note">TextNote</link> <link linkend="_class_text_notes_creator_1a476c79352cfadf7e6893903c1229b74d">createTextNote</link> (const std::string &amp;text)</para>
+
+<para>Создает новую текстовую заметку </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Создатель текстовых заметок </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_text_notes_creator_1a476c79352cfadf7e6893903c1229b74d"/><section>
+    <title>createTextNote()</title>
+<indexterm><primary>createTextNote</primary><secondary>TextNotesCreator</secondary></indexterm>
+<indexterm><primary>TextNotesCreator</primary><secondary>createTextNote</secondary></indexterm>
+<para><computeroutput><link linkend="_class_text_note">TextNote</link> TextNotesCreator::createTextNote (const std::string &amp; text)</computeroutput></para><para>
+
+<para>Создает новую текстовую заметку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>текст заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Объект текстовой заметки </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TextNotesCreator.h</section>
+</section>

@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_background_color" xml:lang="en-US">
+<title>BackgroundColor Class Reference</title>
+<indexterm><primary>BackgroundColor</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю выбирать и изменять цвет фона страницы для создания комфортной рабочей обстановки. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;BackgroundColor.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_background_color_1a2d9fe0d1ffd29dd628d2094f26a70be4">setBackgroundColor</link> (const std::string &amp;backgroundColor)</para>
+
+<para>Устанавливает цвет фона страницы </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю выбирать и изменять цвет фона страницы для создания комфортной рабочей обстановки. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_background_color_1a2d9fe0d1ffd29dd628d2094f26a70be4"/><section>
+    <title>setBackgroundColor()</title>
+<indexterm><primary>setBackgroundColor</primary><secondary>BackgroundColor</secondary></indexterm>
+<indexterm><primary>BackgroundColor</primary><secondary>setBackgroundColor</secondary></indexterm>
+<para><computeroutput>void BackgroundColor::setBackgroundColor (const std::string &amp; backgroundColor)</computeroutput></para><para>
+
+<para>Устанавливает цвет фона страницы </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>backgroundColor</entry><entry>
+<para>цвет фона </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+BackgroundColor.h</section>
+</section>

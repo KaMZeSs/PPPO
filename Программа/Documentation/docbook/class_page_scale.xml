@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_page_scale" xml:lang="en-US">
+<title>PageScale Class Reference</title>
+<indexterm><primary>PageScale</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю изменять масштаб отображения содержимого страницы для лучшего просмотра и работы </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;PageScale.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_page_scale_1a5677c9f8f8217cf55cbfc185a2767de0">setScale</link> (int scale)</para>
+
+<para>Устанавливает масштаб отображения страницы </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю изменять масштаб отображения содержимого страницы для лучшего просмотра и работы </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_page_scale_1a5677c9f8f8217cf55cbfc185a2767de0"/><section>
+    <title>setScale()</title>
+<indexterm><primary>setScale</primary><secondary>PageScale</secondary></indexterm>
+<indexterm><primary>PageScale</primary><secondary>setScale</secondary></indexterm>
+<para><computeroutput>void PageScale::setScale (int scale)</computeroutput></para><para>
+
+<para>Устанавливает масштаб отображения страницы </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>scale</entry><entry>
+<para>Масштаб </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+PageScale.h</section>
+</section>

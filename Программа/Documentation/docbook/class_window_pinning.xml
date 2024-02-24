@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_window_pinning" xml:lang="en-US">
+<title>WindowPinning Class Reference</title>
+<indexterm><primary>WindowPinning</primary></indexterm>
+<para>
+
+<para>Обеспечивает возможность закрепления окна поверх других, что позволяет пользователю удобно работать с несколькими окнами одновременно, не теряя нужной информации </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;WindowPinning.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_window_pinning_1ac5814401a407ade8b0a365615f83b1f5">pinWindow</link> (int windowId)</para>
+
+<para>Закрепляет указанное окно поверх других окон </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_window_pinning_1a4f95c1537b8fd86040426b91a98aeb2c">unpinWindow</link> (int windowId)</para>
+
+<para>Открепляет указанное окно от верхнего положения </para>
+</listitem>
+            <listitem><para>std::vector&lt; int &gt; <link linkend="_class_window_pinning_1a3ebbffdf85c8f4255dcefdc48c27e855">getPinnedWindows</link> ()</para>
+
+<para>Возвращает список закрепленных окон </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Обеспечивает возможность закрепления окна поверх других, что позволяет пользователю удобно работать с несколькими окнами одновременно, не теряя нужной информации </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_window_pinning_1a3ebbffdf85c8f4255dcefdc48c27e855"/><section>
+    <title>getPinnedWindows()</title>
+<indexterm><primary>getPinnedWindows</primary><secondary>WindowPinning</secondary></indexterm>
+<indexterm><primary>WindowPinning</primary><secondary>getPinnedWindows</secondary></indexterm>
+<para><computeroutput>std::vector&lt; int &gt; WindowPinning::getPinnedWindows ( )</computeroutput></para><para>
+
+<para>Возвращает список закрепленных окон </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор с идентификаторами закрепленных окон </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_window_pinning_1ac5814401a407ade8b0a365615f83b1f5"/><section>
+    <title>pinWindow()</title>
+<indexterm><primary>pinWindow</primary><secondary>WindowPinning</secondary></indexterm>
+<indexterm><primary>WindowPinning</primary><secondary>pinWindow</secondary></indexterm>
+<para><computeroutput>void WindowPinning::pinWindow (int windowId)</computeroutput></para><para>
+
+<para>Закрепляет указанное окно поверх других окон </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>windowId</entry><entry>
+<para>Идентификатор окна (windowId) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_window_pinning_1a4f95c1537b8fd86040426b91a98aeb2c"/><section>
+    <title>unpinWindow()</title>
+<indexterm><primary>unpinWindow</primary><secondary>WindowPinning</secondary></indexterm>
+<indexterm><primary>WindowPinning</primary><secondary>unpinWindow</secondary></indexterm>
+<para><computeroutput>void WindowPinning::unpinWindow (int windowId)</computeroutput></para><para>
+
+<para>Открепляет указанное окно от верхнего положения </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>windowId</entry><entry>
+<para>Идентификатор окна (windowId) </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+WindowPinning.h</section>
+</section>

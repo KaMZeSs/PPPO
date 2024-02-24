@@ -1,0 +1,22 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__link_8h_source" xml:lang="en-US">
+<title>Link.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_link">Link</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_link_1add764b0ec4c676de9eef84aa67e2865d">addLink</link>(std::string&#32;link);
+15 
+18 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_link_1a7a4cc6f3021cf668383442d674cc672b">deleteLink</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+19 
+20 <emphasis role="keyword">private</emphasis>:
+22 &#32;&#32;&#32;&#32;std::vector&lt;Link&gt;&#32;links;
+23 };
+24 
+25 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;COMPLEX_OBJECTS_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

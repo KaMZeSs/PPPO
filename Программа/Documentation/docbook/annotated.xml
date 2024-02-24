@@ -1,0 +1,66 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_annotated" xml:lang="en-US">
+<title>Class List</title>
+Here are the classes, structs, unions and interfaces with brief descriptions:<link linkend="_class_background_color">BackgroundColor</link>
+<para>Позволяет пользователю выбирать и изменять цвет фона страницы для создания комфортной рабочей обстановки </para>
+<link linkend="_class_binary">Binary</link>
+<para>Позволяет добавлять на страницу ссылки на бинарные файлы с возможностью их экспорта и просмотра </para>
+<link linkend="_class_block_display">BlockDisplay</link>
+<para>Предоставляет области для содержимого заметок на странице, которые могут иметь разную форму и располагаться в разных частях страницы </para>
+<link linkend="_class_chart">Chart</link>
+<para>Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице </para>
+<link linkend="_class_document">Document</link>
+<para>Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток </para>
+<link linkend="_class_equation">Equation</link>
+<para>Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора </para>
+<link linkend="_class_file_creation">FileCreation</link>
+<para>Позволяет создавать новые файлы для хранения заметок </para>
+<link linkend="_class_file_export">FileExport</link>
+<para>Обеспечивает возможность экспорта текущего файла с заметками в различные форматы, такие как PDF, XPS и DOCX, для обмена или публикации </para>
+<link linkend="_class_file_opening">FileOpening</link>
+<para>Позволяет пользователям открывать уже существующие файлы с заметками для дальнейшего редактирования </para>
+<link linkend="_class_graphic_note">GraphicNote</link>
+<para>Позволяет пользователю добавлять и редактировать графические элементы на странице, такие как изображения и рисунки </para>
+<link linkend="_class_graphic_notes_creator">GraphicNotesCreator</link><link linkend="_class_graphic_notes_editor">GraphicNotesEditor</link>
+<para>Позволяет пользователю редактировать добавленные изображения, включая их обрезку или дополнительное рисование поверх них </para>
+<link linkend="_class_graphic_notes_importer">GraphicNotesImporter</link>
+<para>Позволяет пользователю добавлять существующие изображения на страницу в качестве графических заметок </para>
+<link linkend="_class_journaling">Journaling</link>
+<para>Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий </para>
+<link linkend="_class_link">Link</link>
+<para>Позволяет пользователю создавать и редактировать ссылки на интернет-источники прямо на странице </para>
+<link linkend="_class_page_grid">PageGrid</link>
+<para>Обеспечивает возможность добавления сетки или линий на фон страницы для удобства выравнивания элементов </para>
+<link linkend="_class_page_scale">PageScale</link>
+<para>Позволяет пользователю изменять масштаб отображения содержимого страницы для лучшего просмотра и работы </para>
+<link linkend="_class_quick_note_window">QuickNoteWindow</link>
+<para>Предоставляет мини-окно, доступное из панели инструментов, для быстрого создания заметок без необходимости переключения между разделами </para>
+<link linkend="_class_reviewing">Reviewing</link>
+<para>Предоставляет инструменты для проверки и редактирования содержимого заметок, включая проверку читаемости, орфографии, перевод текстов и защиту страниц паролем </para>
+<link linkend="_class_section">Section</link>
+<para>Представляет собой отдельный раздел в дереве разделов, содержащий его название, цвет закладки и ссылку на соответствующую страницу с заметками </para>
+<link linkend="_class_section_editor">SectionEditor</link>
+<para>Позволяет пользователю редактировать список разделов, включая добавление, удаление и перемещение разделов для более удобной организации заметок </para>
+<link linkend="_class_section_group">SectionGroup</link>
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+<link linkend="_class_section_tree">SectionTree</link>
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+<link linkend="_class_settings">Settings</link>
+<para>Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя </para>
+<link linkend="_class_table">Table</link>
+<para>Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме </para>
+<link linkend="_class_tags_manager">TagsManager</link>
+<para>Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации </para>
+<link linkend="_class_text_note">TextNote</link>
+<para>Представляет собой текстовую заметку </para>
+<link linkend="_class_text_notes_creator">TextNotesCreator</link>
+<para>Создатель текстовых заметок </para>
+<link linkend="_class_text_notes_deleter">TextNotesDeleter</link>
+<para>Удаляет текстовые заметки </para>
+<link linkend="_class_text_notes_editor">TextNotesEditor</link>
+<para>Редактор текстовых заметок </para>
+<link linkend="_class_window_creation">WindowCreation</link>
+<para>Позволяет пользователям создавать новые окна для работы с двумя или более страницами одновременно, что повышает производительность и удобство использования приложения </para>
+<link linkend="_class_window_pinning">WindowPinning</link>
+<para>Обеспечивает возможность закрепления окна поверх других, что позволяет пользователю удобно работать с несколькими окнами одновременно, не теряя нужной информации </para>
+</section>

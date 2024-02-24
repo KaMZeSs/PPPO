@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_file_creation" xml:lang="en-US">
+<title>FileCreation Class Reference</title>
+<indexterm><primary>FileCreation</primary></indexterm>
+<para>
+
+<para>Позволяет создавать новые файлы для хранения заметок </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;FileCreation.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_file_creation_1a566a52872d58cab3ce9859f0c3ee2207">createFile</link> (const std::string &amp;name)</para>
+
+<para>Создает новый файл с указанным именем </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет создавать новые файлы для хранения заметок </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_file_creation_1a566a52872d58cab3ce9859f0c3ee2207"/><section>
+    <title>createFile()</title>
+<indexterm><primary>createFile</primary><secondary>FileCreation</secondary></indexterm>
+<indexterm><primary>FileCreation</primary><secondary>createFile</secondary></indexterm>
+<para><computeroutput>bool FileCreation::createFile (const std::string &amp; name)</computeroutput></para><para>
+
+<para>Создает новый файл с указанным именем </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>имя файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если файл успешно создан, иначе false </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+FileCreation.h</section>
+</section>

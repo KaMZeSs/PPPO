@@ -1,0 +1,23 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__window_pinning_8h_source" xml:lang="en-US">
+<title>WindowPinning.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;WINDOW_PINNING_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;WINDOW_PINNING_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+5 
+7 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_window_pinning">WindowPinning</link>
+8 {
+9 <emphasis role="keyword">public</emphasis>:
+12 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_window_pinning_1ac5814401a407ade8b0a365615f83b1f5">pinWindow</link>(<emphasis role="keywordtype">int</emphasis>&#32;windowId);
+13 
+16 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_window_pinning_1a4f95c1537b8fd86040426b91a98aeb2c">unpinWindow</link>(<emphasis role="keywordtype">int</emphasis>&#32;windowId);
+17 
+20 &#32;&#32;&#32;&#32;std::vector&lt;int&gt;&#32;<link linkend="_class_window_pinning_1a3ebbffdf85c8f4255dcefdc48c27e855">getPinnedWindows</link>();
+21 
+22 <emphasis role="keyword">private</emphasis>:
+24 &#32;&#32;&#32;&#32;std::vector&lt;int&gt;&#32;pinnedWindows;
+25 };
+26 
+27 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;WINDOW_PINNING_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

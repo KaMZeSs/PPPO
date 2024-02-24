@@ -1,0 +1,74 @@
+\doxysection{Section\+Tree Class Reference}
+\hypertarget{class_section_tree}{}\label{class_section_tree}\index{SectionTree@{SectionTree}}
+
+
+Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее  
+
+
+
+
+{\ttfamily \#include $<$Section\+Tree.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_section_tree_a762b492c015a59a613af7d6064095464}{add\+Section}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Добавляет новый раздел в дерево разделов \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_section_tree_a3404cebb20a7176ca49b0bd3e52eadcb}{remove\+Section}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанный раздел из дерева \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_section_tree_a44d94f8b42538b4bf12f9cb419221a36}{get\+All\+Sections}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список всех разделов \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_section_tree_a762b492c015a59a613af7d6064095464}\label{class_section_tree_a762b492c015a59a613af7d6064095464} 
+\index{SectionTree@{SectionTree}!addSection@{addSection}}
+\index{addSection@{addSection}!SectionTree@{SectionTree}}
+\doxysubsubsection{\texorpdfstring{addSection()}{addSection()}}
+{\footnotesize\ttfamily void Section\+Tree\+::add\+Section (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый раздел в дерево разделов 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Название раздела \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_section_tree_a44d94f8b42538b4bf12f9cb419221a36}\label{class_section_tree_a44d94f8b42538b4bf12f9cb419221a36} 
+\index{SectionTree@{SectionTree}!getAllSections@{getAllSections}}
+\index{getAllSections@{getAllSections}!SectionTree@{SectionTree}}
+\doxysubsubsection{\texorpdfstring{getAllSections()}{getAllSections()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Section\+Tree\+::get\+All\+Sections (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает список всех разделов 
+
+\begin{DoxyReturn}{Returns}
+Вектор строк с названиями разделов 
+\end{DoxyReturn}
+\Hypertarget{class_section_tree_a3404cebb20a7176ca49b0bd3e52eadcb}\label{class_section_tree_a3404cebb20a7176ca49b0bd3e52eadcb} 
+\index{SectionTree@{SectionTree}!removeSection@{removeSection}}
+\index{removeSection@{removeSection}!SectionTree@{SectionTree}}
+\doxysubsubsection{\texorpdfstring{removeSection()}{removeSection()}}
+{\footnotesize\ttfamily void Section\+Tree\+::remove\+Section (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанный раздел из дерева 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс раздела \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Section\+Tree.\+h\end{DoxyCompactItemize}

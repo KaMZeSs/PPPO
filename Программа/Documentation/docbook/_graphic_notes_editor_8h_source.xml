@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__graphic_notes_editor_8h_source" xml:lang="en-US">
+<title>GraphicNotesEditor.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;GRAPHIC_NOTES_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;GRAPHIC_NOTES_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 <emphasis role="preprocessor">#include&#32;&quot;GraphicNotes.h&quot;</emphasis>
+7 
+9 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_graphic_notes_editor">GraphicNotesEditor</link>
+10 {
+11 <emphasis role="keyword">public</emphasis>:
+15 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_graphic_notes_editor_1a1a373acdc1f171a411b3323599a873b2">editImageNote</link>(<link linkend="_class_graphic_note">GraphicNote</link>&#32;note,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;newImagePath);
+16 };
+17 
+18 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;GRAPHIC_NOTES_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

@@ -1,0 +1,74 @@
+\doxysection{Section\+Group Class Reference}
+\hypertarget{class_section_group}{}\label{class_section_group}\index{SectionGroup@{SectionGroup}}
+
+
+Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее  
+
+
+
+
+{\ttfamily \#include $<$Section\+Group.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_section_group_aafab838e44a34c63f280c1eadca1ddf7}{add\+Section}} (const std\+::string \&name)
+\begin{DoxyCompactList}\small\item\em Добавляет новый раздел в группу разделов \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_section_group_a43fae633f1d04499b6f3891dc791e7ea}{remove\+Section}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанный раздел из группы \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_section_group_a44d76d9271dd1028d557a3928be0e9bb}{get\+All\+Sections}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список всех разделов в группе \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_section_group_aafab838e44a34c63f280c1eadca1ddf7}\label{class_section_group_aafab838e44a34c63f280c1eadca1ddf7} 
+\index{SectionGroup@{SectionGroup}!addSection@{addSection}}
+\index{addSection@{addSection}!SectionGroup@{SectionGroup}}
+\doxysubsubsection{\texorpdfstring{addSection()}{addSection()}}
+{\footnotesize\ttfamily void Section\+Group\+::add\+Section (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{name }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый раздел в группу разделов 
+
+
+\begin{DoxyParams}{Parameters}
+{\em name} & Название раздела \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_section_group_a44d76d9271dd1028d557a3928be0e9bb}\label{class_section_group_a44d76d9271dd1028d557a3928be0e9bb} 
+\index{SectionGroup@{SectionGroup}!getAllSections@{getAllSections}}
+\index{getAllSections@{getAllSections}!SectionGroup@{SectionGroup}}
+\doxysubsubsection{\texorpdfstring{getAllSections()}{getAllSections()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Section\+Group\+::get\+All\+Sections (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает список всех разделов в группе 
+
+\begin{DoxyReturn}{Returns}
+Вектор строк с названиями разделов 
+\end{DoxyReturn}
+\Hypertarget{class_section_group_a43fae633f1d04499b6f3891dc791e7ea}\label{class_section_group_a43fae633f1d04499b6f3891dc791e7ea} 
+\index{SectionGroup@{SectionGroup}!removeSection@{removeSection}}
+\index{removeSection@{removeSection}!SectionGroup@{SectionGroup}}
+\doxysubsubsection{\texorpdfstring{removeSection()}{removeSection()}}
+{\footnotesize\ttfamily void Section\+Group\+::remove\+Section (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанный раздел из группы 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс раздела \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Section\+Group.\+h\end{DoxyCompactItemize}

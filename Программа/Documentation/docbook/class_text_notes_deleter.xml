@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_notes_deleter" xml:lang="en-US">
+<title>TextNotesDeleter Class Reference</title>
+<indexterm><primary>TextNotesDeleter</primary></indexterm>
+<para>
+
+<para>Удаляет текстовые заметки </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;TextNotesDeleter.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_text_notes_deleter_1a73024a649f2e396cdbfec276b11e04f3">deleteTextNote</link> (<link linkend="_class_text_note">TextNote</link> textNote)</para>
+
+<para>Удаляет указанную текстовую заметку </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Удаляет текстовые заметки </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_text_notes_deleter_1a73024a649f2e396cdbfec276b11e04f3"/><section>
+    <title>deleteTextNote()</title>
+<indexterm><primary>deleteTextNote</primary><secondary>TextNotesDeleter</secondary></indexterm>
+<indexterm><primary>TextNotesDeleter</primary><secondary>deleteTextNote</secondary></indexterm>
+<para><computeroutput>void TextNotesDeleter::deleteTextNote (<link linkend="_class_text_note">TextNote</link> textNote)</computeroutput></para><para>
+
+<para>Удаляет указанную текстовую заметку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>textNote</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TextNotesDeleter.h</section>
+</section>

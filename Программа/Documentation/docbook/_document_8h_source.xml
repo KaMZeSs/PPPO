@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__document_8h_source" xml:lang="en-US">
+<title>Document.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_document">Document</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_document_1ab4f0f1296ec73dfa6ba0e14d3e7a6db3">addDocument</link>(<emphasis role="keyword">const</emphasis>&#32;std::vector&lt;byte&gt;&#32;&amp;data);
+15 
+18 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_document_1ab557deb716c0a22fa3a519e6a9bcf1c4">deleteDocument</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+19 
+22 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_document_1ae00cd0728de60671afd7e9c309f0f54b">viewDocument</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+23 
+24 <emphasis role="keyword">private</emphasis>:
+26 &#32;&#32;&#32;&#32;std::vector&lt;Document&gt;&#32;documents;
+27 };
+28 
+29 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;COMPLEX_OBJECTS_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

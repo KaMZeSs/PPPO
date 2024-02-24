@@ -1,0 +1,242 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_settings" xml:lang="en-US">
+<title>Settings Class Reference</title>
+<indexterm><primary>Settings</primary></indexterm>
+<para>
+
+<para>Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Settings.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_settings_1a14a73e547f010d746afca65ee1e43a6f">setLanguage</link> (const std::string &amp;language)</para>
+
+<para>Устанавливает новый язык приложения </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_settings_1a93eee24ccd588d22667c4c6b0f79cfcc">setDefaultFontSize</link> (int fontSize)</para>
+
+<para>Устанавливает размер шрифта по умолчанию </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_settings_1a56600c10efd7cd151ed0bd89cbdb3f00">setTheme</link> (const std::string &amp;themeName)</para>
+
+<para>Устанавливает тему оформления приложения </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_settings_1acd108b9a23c60cc970e90c0f1832b594">addSavePath</link> (const std::string &amp;path)</para>
+
+<para>Добавляет новый путь для сохранения файлов </para>
+</listitem>
+            <listitem><para>bool <link linkend="_class_settings_1aeb3dbe15f800039cc22dbda08578c961">removeSavePath</link> (const std::string &amp;path)</para>
+
+<para>Удаляет указанный путь для сохранения файлов </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_settings_1a8c5b3771fd3a0400af03a84ae3f08d6f">getAvailableThemes</link> ()</para>
+
+<para>Возвращает список доступных тем оформления </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_settings_1acd108b9a23c60cc970e90c0f1832b594"/><section>
+    <title>addSavePath()</title>
+<indexterm><primary>addSavePath</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>addSavePath</secondary></indexterm>
+<para><computeroutput>bool Settings::addSavePath (const std::string &amp; path)</computeroutput></para><para>
+
+<para>Добавляет новый путь для сохранения файлов </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>path</entry><entry>
+<para>Путь к папке </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если путь успешно добавлен, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_settings_1a8c5b3771fd3a0400af03a84ae3f08d6f"/><section>
+    <title>getAvailableThemes()</title>
+<indexterm><primary>getAvailableThemes</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>getAvailableThemes</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; Settings::getAvailableThemes ( )</computeroutput></para><para>
+
+<para>Возвращает список доступных тем оформления </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор строк с названиями тем </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_settings_1aeb3dbe15f800039cc22dbda08578c961"/><section>
+    <title>removeSavePath()</title>
+<indexterm><primary>removeSavePath</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>removeSavePath</secondary></indexterm>
+<para><computeroutput>bool Settings::removeSavePath (const std::string &amp; path)</computeroutput></para><para>
+
+<para>Удаляет указанный путь для сохранения файлов </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>path</entry><entry>
+<para>Путь к папке </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если путь успешно удален, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_settings_1a93eee24ccd588d22667c4c6b0f79cfcc"/><section>
+    <title>setDefaultFontSize()</title>
+<indexterm><primary>setDefaultFontSize</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>setDefaultFontSize</secondary></indexterm>
+<para><computeroutput>bool Settings::setDefaultFontSize (int fontSize)</computeroutput></para><para>
+
+<para>Устанавливает размер шрифта по умолчанию </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>fontSize</entry><entry>
+<para>Размер шрифта </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если размер шрифта успешно изменен, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_settings_1a14a73e547f010d746afca65ee1e43a6f"/><section>
+    <title>setLanguage()</title>
+<indexterm><primary>setLanguage</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>setLanguage</secondary></indexterm>
+<para><computeroutput>bool Settings::setLanguage (const std::string &amp; language)</computeroutput></para><para>
+
+<para>Устанавливает новый язык приложения </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>language</entry><entry>
+<para>Новый язык </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если язык успешно изменен, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_settings_1a56600c10efd7cd151ed0bd89cbdb3f00"/><section>
+    <title>setTheme()</title>
+<indexterm><primary>setTheme</primary><secondary>Settings</secondary></indexterm>
+<indexterm><primary>Settings</primary><secondary>setTheme</secondary></indexterm>
+<para><computeroutput>bool Settings::setTheme (const std::string &amp; themeName)</computeroutput></para><para>
+
+<para>Устанавливает тему оформления приложения </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>themeName</entry><entry>
+<para>Название темы </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если тема успешно установлена, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Settings.h</section>
+</section>

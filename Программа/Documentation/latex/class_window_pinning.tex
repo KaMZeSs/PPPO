@@ -1,0 +1,74 @@
+\doxysection{Window\+Pinning Class Reference}
+\hypertarget{class_window_pinning}{}\label{class_window_pinning}\index{WindowPinning@{WindowPinning}}
+
+
+Обеспечивает возможность закрепления окна поверх других, что позволяет пользователю удобно работать с несколькими окнами одновременно, не теряя нужной информации  
+
+
+
+
+{\ttfamily \#include $<$Window\+Pinning.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_window_pinning_ac5814401a407ade8b0a365615f83b1f5}{pin\+Window}} (int window\+Id)
+\begin{DoxyCompactList}\small\item\em Закрепляет указанное окно поверх других окон \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_window_pinning_a4f95c1537b8fd86040426b91a98aeb2c}{unpin\+Window}} (int window\+Id)
+\begin{DoxyCompactList}\small\item\em Открепляет указанное окно от верхнего положения \end{DoxyCompactList}\item 
+std\+::vector$<$ int $>$ \mbox{\hyperlink{class_window_pinning_a3ebbffdf85c8f4255dcefdc48c27e855}{get\+Pinned\+Windows}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список закрепленных окон \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Обеспечивает возможность закрепления окна поверх других, что позволяет пользователю удобно работать с несколькими окнами одновременно, не теряя нужной информации 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_window_pinning_a3ebbffdf85c8f4255dcefdc48c27e855}\label{class_window_pinning_a3ebbffdf85c8f4255dcefdc48c27e855} 
+\index{WindowPinning@{WindowPinning}!getPinnedWindows@{getPinnedWindows}}
+\index{getPinnedWindows@{getPinnedWindows}!WindowPinning@{WindowPinning}}
+\doxysubsubsection{\texorpdfstring{getPinnedWindows()}{getPinnedWindows()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Window\+Pinning\+::get\+Pinned\+Windows (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает список закрепленных окон 
+
+\begin{DoxyReturn}{Returns}
+Вектор с идентификаторами закрепленных окон 
+\end{DoxyReturn}
+\Hypertarget{class_window_pinning_ac5814401a407ade8b0a365615f83b1f5}\label{class_window_pinning_ac5814401a407ade8b0a365615f83b1f5} 
+\index{WindowPinning@{WindowPinning}!pinWindow@{pinWindow}}
+\index{pinWindow@{pinWindow}!WindowPinning@{WindowPinning}}
+\doxysubsubsection{\texorpdfstring{pinWindow()}{pinWindow()}}
+{\footnotesize\ttfamily void Window\+Pinning\+::pin\+Window (\begin{DoxyParamCaption}\item[{int}]{window\+Id }\end{DoxyParamCaption})}
+
+
+
+Закрепляет указанное окно поверх других окон 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window\+Id} & Идентификатор окна (window\+Id) \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_window_pinning_a4f95c1537b8fd86040426b91a98aeb2c}\label{class_window_pinning_a4f95c1537b8fd86040426b91a98aeb2c} 
+\index{WindowPinning@{WindowPinning}!unpinWindow@{unpinWindow}}
+\index{unpinWindow@{unpinWindow}!WindowPinning@{WindowPinning}}
+\doxysubsubsection{\texorpdfstring{unpinWindow()}{unpinWindow()}}
+{\footnotesize\ttfamily void Window\+Pinning\+::unpin\+Window (\begin{DoxyParamCaption}\item[{int}]{window\+Id }\end{DoxyParamCaption})}
+
+
+
+Открепляет указанное окно от верхнего положения 
+
+
+\begin{DoxyParams}{Parameters}
+{\em window\+Id} & Идентификатор окна (window\+Id) \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Window\+Pinning.\+h\end{DoxyCompactItemize}

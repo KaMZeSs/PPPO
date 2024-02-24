@@ -1,0 +1,233 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML><HEAD></HEAD><BODY>
+<OBJECT type="text/site properties">
+<param name="FrameName" value="right">
+</OBJECT>
+<UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Титульный экран"><param name="Local" value="md__x_d0_x9_c_x_d0_x_b_e_x_d0_x_b4_x_d1_x83_x_d0_x_b_b_x_d0_x_b8.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Записная книга"><param name="Local" value="md__x_d0_x9_c_x_d0_x_b_e_x_d0_x_b4_x_d1_x83_x_d0_x_b_b_x_d0_x_b8.html#autotoc_md1"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Отображение окон"><param name="Local" value="md__x_d0_x9_c_x_d0_x_b_e_x_d0_x_b4_x_d1_x83_x_d0_x_b_b_x_d0_x_b8.html#autotoc_md2"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="План разработки программы"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Анализ и планирование"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html#autotoc_md4"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Проектирование"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html#autotoc_md5"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Разработка"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html#autotoc_md6"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Тестирование"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html#autotoc_md7"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Публикация и поддержка"><param name="Local" value="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.html#autotoc_md8"><param name="ImageNumber" value="11"></OBJECT>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Classes"><param name="Local" value="annotated.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class List"><param name="Local" value="annotated.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BackgroundColor"><param name="Local" value="class_background_color.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setBackgroundColor"><param name="Local" value="class_background_color.html#a2d9fe0d1ffd29dd628d2094f26a70be4"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Binary"><param name="Local" value="class_binary.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addBinary"><param name="Local" value="class_binary.html#acae07f4703f85a36b0d3c6308c7f1cdd"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteBinary"><param name="Local" value="class_binary.html#a3aeb96e4d6fc45350afc44b21d0f2f25"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="exportBinary"><param name="Local" value="class_binary.html#a01f2b97a406f587b0046810a0821c0ba"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="viewBinary"><param name="Local" value="class_binary.html#afe8227d65891b0e6c434785e7e829993"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BlockDisplay"><param name="Local" value="class_block_display.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addBlock"><param name="Local" value="class_block_display.html#afca39b960fc89e843ada880df1b1503a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllBlocks"><param name="Local" value="class_block_display.html#a1b51a6b203e07f5b7c8b080768f3f0d6"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeBlock"><param name="Local" value="class_block_display.html#acade3ba1c8ba8262bf7ad5737cde9b35"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Chart"><param name="Local" value="class_chart.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createChart"><param name="Local" value="class_chart.html#a30cefbf6764f306b53924f610423e15d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteChart"><param name="Local" value="class_chart.html#aa0762cf7e29f1322fad6c59158cbf38a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editChart"><param name="Local" value="class_chart.html#abce0f5e3a9dd8dde34085a49b5dd9803"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Document"><param name="Local" value="class_document.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addDocument"><param name="Local" value="class_document.html#ab4f0f1296ec73dfa6ba0e14d3e7a6db3"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteDocument"><param name="Local" value="class_document.html#ab557deb716c0a22fa3a519e6a9bcf1c4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="viewDocument"><param name="Local" value="class_document.html#ae00cd0728de60671afd7e9c309f0f54b"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Equation"><param name="Local" value="class_equation.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createEquation"><param name="Local" value="class_equation.html#accbeb5c49b10a05d6f903a1bc8a66e54"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteEquation"><param name="Local" value="class_equation.html#a89a0151db9f3bc8a72e949c5ede0197f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editEquation"><param name="Local" value="class_equation.html#aa43bd4c0f7b4252507dbd32b8acebe29"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileCreation"><param name="Local" value="class_file_creation.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createFile"><param name="Local" value="class_file_creation.html#a566a52872d58cab3ce9859f0c3ee2207"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileExport"><param name="Local" value="class_file_export.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="exportFile"><param name="Local" value="class_file_export.html#a2032083aa584327ffb51e1559bc8194c"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileOpening"><param name="Local" value="class_file_opening.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="openFile"><param name="Local" value="class_file_opening.html#a41bea59ff12510cfad0b743229aff29c"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNote"><param name="Local" value="class_graphic_note.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesCreator"><param name="Local" value="class_graphic_notes_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createImageNote"><param name="Local" value="class_graphic_notes_creator.html#a79080e799a8053d8dfff4db215ceef16"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesEditor"><param name="Local" value="class_graphic_notes_editor.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editImageNote"><param name="Local" value="class_graphic_notes_editor.html#a1a373acdc1f171a411b3323599a873b2"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesImporter"><param name="Local" value="class_graphic_notes_importer.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="importImageNote"><param name="Local" value="class_graphic_notes_importer.html#a33d6d1eb2788729a42f30a289c88fff7"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Journaling"><param name="Local" value="class_journaling.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllChanges"><param name="Local" value="class_journaling.html#a5fb4b59454b3551dd3107a01ab88a253"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="logChange"><param name="Local" value="class_journaling.html#a41932d92b92920ac9e77dc3fac2387db"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Link"><param name="Local" value="class_link.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addLink"><param name="Local" value="class_link.html#add764b0ec4c676de9eef84aa67e2865d"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteLink"><param name="Local" value="class_link.html#a7a4cc6f3021cf668383442d674cc672b"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PageGrid"><param name="Local" value="class_page_grid.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addGrid"><param name="Local" value="class_page_grid.html#a750cdd21f7c57da69473acc9bb6876b3"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PageScale"><param name="Local" value="class_page_scale.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setScale"><param name="Local" value="class_page_scale.html#a5677c9f8f8217cf55cbfc185a2767de0"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuickNoteWindow"><param name="Local" value="class_quick_note_window.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="openQuickNoteWindow"><param name="Local" value="class_quick_note_window.html#a785c500de4bf5c52141d44dcc97eaa6c"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="saveQuickNote"><param name="Local" value="class_quick_note_window.html#ac049580dae24d7b69e1a2ead16f5b6e4"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Reviewing"><param name="Local" value="class_reviewing.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="checkReadability"><param name="Local" value="class_reviewing.html#aab3fe27139bb299d829599ec73239bd4"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="checkSpelling"><param name="Local" value="class_reviewing.html#a0f58a71fd7bfe15a2bb88b787b4b471a"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setPassword"><param name="Local" value="class_reviewing.html#a9d3f07c0c3a66c1c08ef2242c8eddef0"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="translateText"><param name="Local" value="class_reviewing.html#afd2d80caf7e23f741aef9e5ea4d12c63"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Section"><param name="Local" value="class_section.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addNote"><param name="Local" value="class_section.html#a13d3ca83abdf16bd9ae279098494cb57"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllNotes"><param name="Local" value="class_section.html#abae09c7da9c47d66f1c0193f7197f619"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeNote"><param name="Local" value="class_section.html#a997028e76c31af48d0cb7adb8e31fa9d"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionEditor"><param name="Local" value="class_section_editor.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editSectionName"><param name="Local" value="class_section_editor.html#ac8723dff4d57d563afdd98e3e63b84eb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionGroup"><param name="Local" value="class_section_group.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addSection"><param name="Local" value="class_section_group.html#aafab838e44a34c63f280c1eadca1ddf7"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllSections"><param name="Local" value="class_section_group.html#a44d76d9271dd1028d557a3928be0e9bb"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeSection"><param name="Local" value="class_section_group.html#a43fae633f1d04499b6f3891dc791e7ea"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionTree"><param name="Local" value="class_section_tree.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addSection"><param name="Local" value="class_section_tree.html#a762b492c015a59a613af7d6064095464"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllSections"><param name="Local" value="class_section_tree.html#a44d94f8b42538b4bf12f9cb419221a36"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeSection"><param name="Local" value="class_section_tree.html#a3404cebb20a7176ca49b0bd3e52eadcb"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Settings"><param name="Local" value="class_settings.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addSavePath"><param name="Local" value="class_settings.html#acd108b9a23c60cc970e90c0f1832b594"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAvailableThemes"><param name="Local" value="class_settings.html#a8c5b3771fd3a0400af03a84ae3f08d6f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeSavePath"><param name="Local" value="class_settings.html#aeb3dbe15f800039cc22dbda08578c961"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setDefaultFontSize"><param name="Local" value="class_settings.html#a93eee24ccd588d22667c4c6b0f79cfcc"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setLanguage"><param name="Local" value="class_settings.html#a14a73e547f010d746afca65ee1e43a6f"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="setTheme"><param name="Local" value="class_settings.html#a56600c10efd7cd151ed0bd89cbdb3f00"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Table"><param name="Local" value="class_table.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createTable"><param name="Local" value="class_table.html#a0c55c75483b480b4a00a54fe27b06341"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteTable"><param name="Local" value="class_table.html#a836cdef8c8884049bdb3ecec10d5524b"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editTable"><param name="Local" value="class_table.html#a5373ec5dbff59ae466c8a889a4651633"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TagsManager"><param name="Local" value="class_tags_manager.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="addTag"><param name="Local" value="class_tags_manager.html#adca2b1a31a5af3b6a13815dab6d26147"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getTagsForNote"><param name="Local" value="class_tags_manager.html#a5a9062b14322296b563497045bcf1e64"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="removeTag"><param name="Local" value="class_tags_manager.html#a2cbfebc2698d2c974eff716354dc39db"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNote"><param name="Local" value="class_text_note.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getAllTextNotes"><param name="Local" value="class_text_note.html#a41b0de3084fc5276c0864008806a60da"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesCreator"><param name="Local" value="class_text_notes_creator.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createTextNote"><param name="Local" value="class_text_notes_creator.html#a476c79352cfadf7e6893903c1229b74d"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesDeleter"><param name="Local" value="class_text_notes_deleter.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="deleteTextNote"><param name="Local" value="class_text_notes_deleter.html#a73024a649f2e396cdbfec276b11e04f3"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesEditor"><param name="Local" value="class_text_notes_editor.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="editTextNote"><param name="Local" value="class_text_notes_editor.html#a7f8c2f1b02b2bba90c8c89fe2dd25a97"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WindowCreation"><param name="Local" value="class_window_creation.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="createWindow"><param name="Local" value="class_window_creation.html#a37ab467365a8e9eef1237d789f783642"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WindowPinning"><param name="Local" value="class_window_pinning.html"><param name="ImageNumber" value="1"></OBJECT>
+      <UL>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="getPinnedWindows"><param name="Local" value="class_window_pinning.html#a3ebbffdf85c8f4255dcefdc48c27e855"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="pinWindow"><param name="Local" value="class_window_pinning.html#ac5814401a407ade8b0a365615f83b1f5"><param name="ImageNumber" value="11"></OBJECT>
+      <LI><OBJECT type="text/sitemap"><param name="Name" value="unpinWindow"><param name="Local" value="class_window_pinning.html#a4f95c1537b8fd86040426b91a98aeb2c"><param name="ImageNumber" value="11"></OBJECT>
+      </UL>
+    </UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Index"><param name="Local" value="classes.html"><param name="ImageNumber" value="11"></OBJECT>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="Class Members"><param name="Local" value="functions.html"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="All"><param name="Local" value="functions.html#top"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Functions"><param name="Local" value="functions_func.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+<LI><OBJECT type="text/sitemap"><param name="Name" value="Files"><param name="Local" value="files.html"><param name="ImageNumber" value="1"></OBJECT>
+  <UL>
+  <LI><OBJECT type="text/sitemap"><param name="Name" value="File List"><param name="Local" value="files.html#top"><param name="ImageNumber" value="1"></OBJECT>
+    <UL>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BackgroundColor.h"><param name="Local" value="_background_color_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Binary.h"><param name="Local" value="_binary_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="BlockDisplay.h"><param name="Local" value="_block_display_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Chart.h"><param name="Local" value="_chart_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Document.h"><param name="Local" value="_document_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Equation.h"><param name="Local" value="_equation_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileCreation.h"><param name="Local" value="_file_creation_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileExport.h"><param name="Local" value="_file_export_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="FileOpening.h"><param name="Local" value="_file_opening_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNote.h"><param name="Local" value="_graphic_note_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesCreator.h"><param name="Local" value="_graphic_notes_creator_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesEditor.h"><param name="Local" value="_graphic_notes_editor_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="GraphicNotesImporter.h"><param name="Local" value="_graphic_notes_importer_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Journaling.h"><param name="Local" value="_journaling_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Link.h"><param name="Local" value="_link_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PageGrid.h"><param name="Local" value="_page_grid_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="PageScale.h"><param name="Local" value="_page_scale_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="QuickNoteWindow.h"><param name="Local" value="_quick_note_window_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Reviewing.h"><param name="Local" value="_reviewing_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Section.h"><param name="Local" value="_section_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionEditor.h"><param name="Local" value="_section_editor_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionGroup.h"><param name="Local" value="_section_group_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="SectionTree.h"><param name="Local" value="_section_tree_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Settings.h"><param name="Local" value="_settings_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="Table.h"><param name="Local" value="_table_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TagsManager.h"><param name="Local" value="_tags_manager_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNote.h"><param name="Local" value="_text_note_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesCreator.h"><param name="Local" value="_text_notes_creator_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesDeleter.h"><param name="Local" value="_text_notes_deleter_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="TextNotesEditor.h"><param name="Local" value="_text_notes_editor_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WindowCreation.h"><param name="Local" value="_window_creation_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    <LI><OBJECT type="text/sitemap"><param name="Name" value="WindowPinning.h"><param name="Local" value="_window_pinning_8h_source.html"><param name="ImageNumber" value="11"></OBJECT>
+    </UL>
+  </UL>
+</UL>
+</BODY>
+</HTML>

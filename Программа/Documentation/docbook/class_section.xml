@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_section" xml:lang="en-US">
+<title>Section Class Reference</title>
+<indexterm><primary>Section</primary></indexterm>
+<para>
+
+<para>Представляет собой отдельный раздел в дереве разделов, содержащий его название, цвет закладки и ссылку на соответствующую страницу с заметками </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Section.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_section_1a13d3ca83abdf16bd9ae279098494cb57">addNote</link> (const std::string &amp;text)</para>
+
+<para>Добавляет новую заметку в раздел </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_section_1a997028e76c31af48d0cb7adb8e31fa9d">removeNote</link> (int index)</para>
+
+<para>Удаляет указанную заметку из раздела </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_section_1abae09c7da9c47d66f1c0193f7197f619">getAllNotes</link> ()</para>
+
+<para>Возвращает все заметки в разделе </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Представляет собой отдельный раздел в дереве разделов, содержащий его название, цвет закладки и ссылку на соответствующую страницу с заметками </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_section_1a13d3ca83abdf16bd9ae279098494cb57"/><section>
+    <title>addNote()</title>
+<indexterm><primary>addNote</primary><secondary>Section</secondary></indexterm>
+<indexterm><primary>Section</primary><secondary>addNote</secondary></indexterm>
+<para><computeroutput>void Section::addNote (const std::string &amp; text)</computeroutput></para><para>
+
+<para>Добавляет новую заметку в раздел </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>Текст заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_section_1abae09c7da9c47d66f1c0193f7197f619"/><section>
+    <title>getAllNotes()</title>
+<indexterm><primary>getAllNotes</primary><secondary>Section</secondary></indexterm>
+<indexterm><primary>Section</primary><secondary>getAllNotes</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; Section::getAllNotes ( )</computeroutput></para><para>
+
+<para>Возвращает все заметки в разделе </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Bектор строк с текстами заметок </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_section_1a997028e76c31af48d0cb7adb8e31fa9d"/><section>
+    <title>removeNote()</title>
+<indexterm><primary>removeNote</primary><secondary>Section</secondary></indexterm>
+<indexterm><primary>Section</primary><secondary>removeNote</secondary></indexterm>
+<para><computeroutput>void Section::removeNote (int index)</computeroutput></para><para>
+
+<para>Удаляет указанную заметку из раздела </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Section.h</section>
+</section>

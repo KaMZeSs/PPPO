@@ -1,0 +1,79 @@
+\doxysection{Document Class Reference}
+\hypertarget{class_document}{}\label{class_document}\index{Document@{Document}}
+
+
+Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток  
+
+
+
+
+{\ttfamily \#include $<$Document.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_document_ab4f0f1296ec73dfa6ba0e14d3e7a6db3}{add\+Document}} (const std\+::vector$<$ byte $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Добавляет новый документ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_document_ab557deb716c0a22fa3a519e6a9bcf1c4}{delete\+Document}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанный документ \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_document_ae00cd0728de60671afd7e9c309f0f54b}{view\+Document}} (int index)
+\begin{DoxyCompactList}\small\item\em Отображает указанный документ в виде распечатки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_document_ab4f0f1296ec73dfa6ba0e14d3e7a6db3}\label{class_document_ab4f0f1296ec73dfa6ba0e14d3e7a6db3} 
+\index{Document@{Document}!addDocument@{addDocument}}
+\index{addDocument@{addDocument}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{addDocument()}{addDocument()}}
+{\footnotesize\ttfamily int Document\+::add\+Document (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ byte $>$ \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый документ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & Данные файла \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Номер документа 
+\end{DoxyReturn}
+\Hypertarget{class_document_ab557deb716c0a22fa3a519e6a9bcf1c4}\label{class_document_ab557deb716c0a22fa3a519e6a9bcf1c4} 
+\index{Document@{Document}!deleteDocument@{deleteDocument}}
+\index{deleteDocument@{deleteDocument}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{deleteDocument()}{deleteDocument()}}
+{\footnotesize\ttfamily void Document\+::delete\+Document (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанный документ 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Номер документа \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_document_ae00cd0728de60671afd7e9c309f0f54b}\label{class_document_ae00cd0728de60671afd7e9c309f0f54b} 
+\index{Document@{Document}!viewDocument@{viewDocument}}
+\index{viewDocument@{viewDocument}!Document@{Document}}
+\doxysubsubsection{\texorpdfstring{viewDocument()}{viewDocument()}}
+{\footnotesize\ttfamily void Document\+::view\+Document (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Отображает указанный документ в виде распечатки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Номер документа \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Document.\+h\end{DoxyCompactItemize}

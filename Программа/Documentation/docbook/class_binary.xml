@@ -1,0 +1,176 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_binary" xml:lang="en-US">
+<title>Binary Class Reference</title>
+<indexterm><primary>Binary</primary></indexterm>
+<para>
+
+<para>Позволяет добавлять на страницу ссылки на бинарные файлы с возможностью их экспорта и просмотра </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Binary.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_binary_1acae07f4703f85a36b0d3c6308c7f1cdd">addBinary</link> (const std::vector&lt; byte &gt; &amp;data)</para>
+
+<para>Создает новый бинарный файл </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_binary_1a3aeb96e4d6fc45350afc44b21d0f2f25">deleteBinary</link> (int index)</para>
+
+<para>Удаляет бинарный файл </para>
+</listitem>
+            <listitem><para>std::vector&lt; byte &gt; <link linkend="_class_binary_1a01f2b97a406f587b0046810a0821c0ba">exportBinary</link> (int index)</para>
+
+<para>Экспорт файла </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_binary_1afe8227d65891b0e6c434785e7e829993">viewBinary</link> (int index)</para>
+
+<para>Отбражение файла </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет добавлять на страницу ссылки на бинарные файлы с возможностью их экспорта и просмотра </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_binary_1acae07f4703f85a36b0d3c6308c7f1cdd"/><section>
+    <title>addBinary()</title>
+<indexterm><primary>addBinary</primary><secondary>Binary</secondary></indexterm>
+<indexterm><primary>Binary</primary><secondary>addBinary</secondary></indexterm>
+<para><computeroutput>int Binary::addBinary (const std::vector&lt; byte &gt; &amp; data)</computeroutput></para><para>
+
+<para>Создает новый бинарный файл </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Данные файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Номер файла </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_binary_1a3aeb96e4d6fc45350afc44b21d0f2f25"/><section>
+    <title>deleteBinary()</title>
+<indexterm><primary>deleteBinary</primary><secondary>Binary</secondary></indexterm>
+<indexterm><primary>Binary</primary><secondary>deleteBinary</secondary></indexterm>
+<para><computeroutput>void Binary::deleteBinary (int index)</computeroutput></para><para>
+
+<para>Удаляет бинарный файл </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Номер файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_binary_1a01f2b97a406f587b0046810a0821c0ba"/><section>
+    <title>exportBinary()</title>
+<indexterm><primary>exportBinary</primary><secondary>Binary</secondary></indexterm>
+<indexterm><primary>Binary</primary><secondary>exportBinary</secondary></indexterm>
+<para><computeroutput>std::vector&lt; byte &gt; Binary::exportBinary (int index)</computeroutput></para><para>
+
+<para>Экспорт файла </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Номер файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Данные файла </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_binary_1afe8227d65891b0e6c434785e7e829993"/><section>
+    <title>viewBinary()</title>
+<indexterm><primary>viewBinary</primary><secondary>Binary</secondary></indexterm>
+<indexterm><primary>Binary</primary><secondary>viewBinary</secondary></indexterm>
+<para><computeroutput>void Binary::viewBinary (int index)</computeroutput></para><para>
+
+<para>Отбражение файла </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Номер файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Binary.h</section>
+</section>

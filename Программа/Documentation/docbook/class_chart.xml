@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_chart" xml:lang="en-US">
+<title>Chart Class Reference</title>
+<indexterm><primary>Chart</primary></indexterm>
+<para>
+
+<para>Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Chart.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_chart_1a30cefbf6764f306b53924f610423e15d">createChart</link> (const std::vector&lt; double &gt; &amp;data)</para>
+
+<para>Создает новую диаграмму с указанными данными </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_chart_1abce0f5e3a9dd8dde34085a49b5dd9803">editChart</link> (int index, const std::vector&lt; double &gt; &amp;newData)</para>
+
+<para>Редактирует указанную диаграмму </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_chart_1aa0762cf7e29f1322fad6c59158cbf38a">deleteChart</link> (int index)</para>
+
+<para>Удаляет указанную диаграмму </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_chart_1a30cefbf6764f306b53924f610423e15d"/><section>
+    <title>createChart()</title>
+<indexterm><primary>createChart</primary><secondary>Chart</secondary></indexterm>
+<indexterm><primary>Chart</primary><secondary>createChart</secondary></indexterm>
+<para><computeroutput>int Chart::createChart (const std::vector&lt; double &gt; &amp; data)</computeroutput></para><para>
+
+<para>Создает новую диаграмму с указанными данными </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>данные для диаграммы </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Номер диаграммы </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_chart_1aa0762cf7e29f1322fad6c59158cbf38a"/><section>
+    <title>deleteChart()</title>
+<indexterm><primary>deleteChart</primary><secondary>Chart</secondary></indexterm>
+<indexterm><primary>Chart</primary><secondary>deleteChart</secondary></indexterm>
+<para><computeroutput>void Chart::deleteChart (int index)</computeroutput></para><para>
+
+<para>Удаляет указанную диаграмму </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>индекс диаграммы </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_chart_1abce0f5e3a9dd8dde34085a49b5dd9803"/><section>
+    <title>editChart()</title>
+<indexterm><primary>editChart</primary><secondary>Chart</secondary></indexterm>
+<indexterm><primary>Chart</primary><secondary>editChart</secondary></indexterm>
+<para><computeroutput>void Chart::editChart (int index, const std::vector&lt; double &gt; &amp; newData)</computeroutput></para><para>
+
+<para>Редактирует указанную диаграмму </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>индекс диаграммы </para>
+</entry>
+                            </row>
+                            <row>
+<entry>newData</entry><entry>
+<para>Новые данные </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Chart.h</section>
+</section>

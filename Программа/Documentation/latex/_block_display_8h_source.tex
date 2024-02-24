@@ -1,0 +1,28 @@
+\doxysection{Block\+Display.\+h}
+\hypertarget{_block_display_8h_source}{}\label{_block_display_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ BLOCK\_DISPLAY\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ BLOCK\_DISPLAY\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_block_display}{BlockDisplay}}}
+\DoxyCodeLine{00009\ \{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00014\ \ \ \ \ \textcolor{keywordtype}{int}\ \mbox{\hyperlink{class_block_display_afca39b960fc89e843ada880df1b1503a}{addBlock}}(\textcolor{keyword}{const}\ std::string\ \&text);}
+\DoxyCodeLine{00015\ }
+\DoxyCodeLine{00018\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_block_display_acade3ba1c8ba8262bf7ad5737cde9b35}{removeBlock}}(\textcolor{keywordtype}{int}\ index);}
+\DoxyCodeLine{00019\ }
+\DoxyCodeLine{00020\ \ \ \ \ \textcolor{comment}{//\ Возвращает\ все\ блоки\ на\ странице}}
+\DoxyCodeLine{00021\ \ \ \ \ \textcolor{comment}{//\ Выход:\ вектор\ строк\ с\ текстами\ блоков}}
+\DoxyCodeLine{00022\ }
+\DoxyCodeLine{00025\ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{class_block_display_a1b51a6b203e07f5b7c8b080768f3f0d6}{getAllBlocks}}();}
+\DoxyCodeLine{00026\ }
+\DoxyCodeLine{00027\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00029\ \ \ \ \ std::vector<std::string>\ blocks;}
+\DoxyCodeLine{00030\ \};}
+\DoxyCodeLine{00031\ }
+\DoxyCodeLine{00032\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ BLOCK\_DISPLAY\_H\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

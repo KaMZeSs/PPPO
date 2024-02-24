@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_document" xml:lang="en-US">
+<title>Document Class Reference</title>
+<indexterm><primary>Document</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Document.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_document_1ab4f0f1296ec73dfa6ba0e14d3e7a6db3">addDocument</link> (const std::vector&lt; byte &gt; &amp;data)</para>
+
+<para>Добавляет новый документ </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_document_1ab557deb716c0a22fa3a519e6a9bcf1c4">deleteDocument</link> (int index)</para>
+
+<para>Удаляет указанный документ </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_document_1ae00cd0728de60671afd7e9c309f0f54b">viewDocument</link> (int index)</para>
+
+<para>Отображает указанный документ в виде распечатки </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_document_1ab4f0f1296ec73dfa6ba0e14d3e7a6db3"/><section>
+    <title>addDocument()</title>
+<indexterm><primary>addDocument</primary><secondary>Document</secondary></indexterm>
+<indexterm><primary>Document</primary><secondary>addDocument</secondary></indexterm>
+<para><computeroutput>int Document::addDocument (const std::vector&lt; byte &gt; &amp; data)</computeroutput></para><para>
+
+<para>Добавляет новый документ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>data</entry><entry>
+<para>Данные файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Номер документа </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_document_1ab557deb716c0a22fa3a519e6a9bcf1c4"/><section>
+    <title>deleteDocument()</title>
+<indexterm><primary>deleteDocument</primary><secondary>Document</secondary></indexterm>
+<indexterm><primary>Document</primary><secondary>deleteDocument</secondary></indexterm>
+<para><computeroutput>void Document::deleteDocument (int index)</computeroutput></para><para>
+
+<para>Удаляет указанный документ </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Номер документа </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_document_1ae00cd0728de60671afd7e9c309f0f54b"/><section>
+    <title>viewDocument()</title>
+<indexterm><primary>viewDocument</primary><secondary>Document</secondary></indexterm>
+<indexterm><primary>Document</primary><secondary>viewDocument</secondary></indexterm>
+<para><computeroutput>void Document::viewDocument (int index)</computeroutput></para><para>
+
+<para>Отображает указанный документ в виде распечатки </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Номер документа </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Document.h</section>
+</section>

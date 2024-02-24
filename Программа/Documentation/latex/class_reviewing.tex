@@ -1,0 +1,106 @@
+\doxysection{Reviewing Class Reference}
+\hypertarget{class_reviewing}{}\label{class_reviewing}\index{Reviewing@{Reviewing}}
+
+
+Предоставляет инструменты для проверки и редактирования содержимого заметок, включая проверку читаемости, орфографии, перевод текстов и защиту страниц паролем  
+
+
+
+
+{\ttfamily \#include $<$Reviewing.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+double \mbox{\hyperlink{class_reviewing_aab3fe27139bb299d829599ec73239bd4}{check\+Readability}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Проверяет читаемость указанной заметки \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_reviewing_a0f58a71fd7bfe15a2bb88b787b4b471a}{check\+Spelling}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Проверяет орфографию в тексте \end{DoxyCompactList}\item 
+std\+::string \mbox{\hyperlink{class_reviewing_afd2d80caf7e23f741aef9e5ea4d12c63}{translate\+Text}} (const std\+::string \&text, const std\+::string \&language)
+\begin{DoxyCompactList}\small\item\em Переводит текст на указанный язык \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_reviewing_a9d3f07c0c3a66c1c08ef2242c8eddef0}{set\+Password}} (int page\+Index, const std\+::string \&password)
+\begin{DoxyCompactList}\small\item\em Устанавливает пароль на указанную страницу \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Предоставляет инструменты для проверки и редактирования содержимого заметок, включая проверку читаемости, орфографии, перевод текстов и защиту страниц паролем 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_reviewing_aab3fe27139bb299d829599ec73239bd4}\label{class_reviewing_aab3fe27139bb299d829599ec73239bd4} 
+\index{Reviewing@{Reviewing}!checkReadability@{checkReadability}}
+\index{checkReadability@{checkReadability}!Reviewing@{Reviewing}}
+\doxysubsubsection{\texorpdfstring{checkReadability()}{checkReadability()}}
+{\footnotesize\ttfamily double Reviewing\+::check\+Readability (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Проверяет читаемость указанной заметки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & Текст заметки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Оценка читаемости 
+\end{DoxyReturn}
+\Hypertarget{class_reviewing_a0f58a71fd7bfe15a2bb88b787b4b471a}\label{class_reviewing_a0f58a71fd7bfe15a2bb88b787b4b471a} 
+\index{Reviewing@{Reviewing}!checkSpelling@{checkSpelling}}
+\index{checkSpelling@{checkSpelling}!Reviewing@{Reviewing}}
+\doxysubsubsection{\texorpdfstring{checkSpelling()}{checkSpelling()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Reviewing\+::check\+Spelling (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Проверяет орфографию в тексте 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & Текст заметки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Список ошибок орфографии 
+\end{DoxyReturn}
+\Hypertarget{class_reviewing_a9d3f07c0c3a66c1c08ef2242c8eddef0}\label{class_reviewing_a9d3f07c0c3a66c1c08ef2242c8eddef0} 
+\index{Reviewing@{Reviewing}!setPassword@{setPassword}}
+\index{setPassword@{setPassword}!Reviewing@{Reviewing}}
+\doxysubsubsection{\texorpdfstring{setPassword()}{setPassword()}}
+{\footnotesize\ttfamily void Reviewing\+::set\+Password (\begin{DoxyParamCaption}\item[{int}]{page\+Index,  }\item[{const std\+::string \&}]{password }\end{DoxyParamCaption})}
+
+
+
+Устанавливает пароль на указанную страницу 
+
+
+\begin{DoxyParams}{Parameters}
+{\em page\+Index} & Индекс страницы \\
+\hline
+{\em password} & Пароль \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_reviewing_afd2d80caf7e23f741aef9e5ea4d12c63}\label{class_reviewing_afd2d80caf7e23f741aef9e5ea4d12c63} 
+\index{Reviewing@{Reviewing}!translateText@{translateText}}
+\index{translateText@{translateText}!Reviewing@{Reviewing}}
+\doxysubsubsection{\texorpdfstring{translateText()}{translateText()}}
+{\footnotesize\ttfamily std\+::string Reviewing\+::translate\+Text (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text,  }\item[{const std\+::string \&}]{language }\end{DoxyParamCaption})}
+
+
+
+Переводит текст на указанный язык 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & Текст заметки \\
+\hline
+{\em language} & Язык перевода \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Переведенный текст 
+\end{DoxyReturn}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Reviewing.\+h\end{DoxyCompactItemize}

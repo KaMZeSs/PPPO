@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__file_export_8h_source" xml:lang="en-US">
+<title>FileExport.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;FILE_EXPORT_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;FILE_EXPORT_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 
+7 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_file_export">FileExport</link>
+8 {
+9 <emphasis role="keyword">public</emphasis>:
+13 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_file_export_1a2032083aa584327ffb51e1559bc8194c">exportFile</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;format);
+14 
+15 <emphasis role="keyword">private</emphasis>:
+17 &#32;&#32;&#32;&#32;std::string&#32;exportFormat;
+18 };
+19 
+20 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;FILE_EXPORT_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

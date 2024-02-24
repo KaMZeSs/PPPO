@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__tags_manager_8h_source" xml:lang="en-US">
+<title>TagsManager.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;TAGS_MANAGER_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;TAGS_MANAGER_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_tags_manager">TagsManager</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_tags_manager_1adca2b1a31a5af3b6a13815dab6d26147">addTag</link>(<emphasis role="keywordtype">int</emphasis>&#32;index,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;tag);
+15 
+19 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_tags_manager_1a2cbfebc2698d2c974eff716354dc39db">removeTag</link>(<emphasis role="keywordtype">int</emphasis>&#32;index,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;tag);
+20 
+24 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;<link linkend="_class_tags_manager_1a5a9062b14322296b563497045bcf1e64">getTagsForNote</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+25 
+26 <emphasis role="keyword">private</emphasis>:
+28 &#32;&#32;&#32;&#32;std::vector&lt;std::vector&lt;std::string&gt;&gt;&#32;noteTags;
+29 };
+30 
+31 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;TAGS_MANAGER_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

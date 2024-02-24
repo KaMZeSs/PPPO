@@ -1,0 +1,18 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__text_notes_editor_8h_source" xml:lang="en-US">
+<title>TextNotesEditor.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;TEXT_NOTES_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;TEXT_NOTES_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 <emphasis role="preprocessor">#include&#32;&quot;TextNote.h&quot;</emphasis>
+7 
+9 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_text_notes_editor">TextNotesEditor</link>
+10 {
+11 <emphasis role="keyword">public</emphasis>:
+15 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_text_notes_editor_1a7f8c2f1b02b2bba90c8c89fe2dd25a97">editTextNote</link>(<link linkend="_class_text_note">TextNote</link>&#32;textNote,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;newText);
+16 };
+17 
+18 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;TEXT_NOTES_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

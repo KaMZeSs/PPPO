@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_section_editor" xml:lang="en-US">
+<title>SectionEditor Class Reference</title>
+<indexterm><primary>SectionEditor</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю редактировать список разделов, включая добавление, удаление и перемещение разделов для более удобной организации заметок </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;SectionEditor.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_section_editor_1ac8723dff4d57d563afdd98e3e63b84eb">editSectionName</link> (int index, const std::string &amp;newName)</para>
+
+<para>Редактирует название указанного раздела </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю редактировать список разделов, включая добавление, удаление и перемещение разделов для более удобной организации заметок </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_section_editor_1ac8723dff4d57d563afdd98e3e63b84eb"/><section>
+    <title>editSectionName()</title>
+<indexterm><primary>editSectionName</primary><secondary>SectionEditor</secondary></indexterm>
+<indexterm><primary>SectionEditor</primary><secondary>editSectionName</secondary></indexterm>
+<para><computeroutput>void SectionEditor::editSectionName (int index, const std::string &amp; newName)</computeroutput></para><para>
+
+<para>Редактирует название указанного раздела </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс раздела </para>
+</entry>
+                            </row>
+                            <row>
+<entry>newName</entry><entry>
+<para>Новое название </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SectionEditor.h</section>
+</section>

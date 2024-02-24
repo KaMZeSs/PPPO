@@ -1,0 +1,117 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_section_group" xml:lang="en-US">
+<title>SectionGroup Class Reference</title>
+<indexterm><primary>SectionGroup</primary></indexterm>
+<para>
+
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;SectionGroup.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_section_group_1aafab838e44a34c63f280c1eadca1ddf7">addSection</link> (const std::string &amp;name)</para>
+
+<para>Добавляет новый раздел в группу разделов </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_section_group_1a43fae633f1d04499b6f3891dc791e7ea">removeSection</link> (int index)</para>
+
+<para>Удаляет указанный раздел из группы </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_section_group_1a44d76d9271dd1028d557a3928be0e9bb">getAllSections</link> ()</para>
+
+<para>Возвращает список всех разделов в группе </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_section_group_1aafab838e44a34c63f280c1eadca1ddf7"/><section>
+    <title>addSection()</title>
+<indexterm><primary>addSection</primary><secondary>SectionGroup</secondary></indexterm>
+<indexterm><primary>SectionGroup</primary><secondary>addSection</secondary></indexterm>
+<para><computeroutput>void SectionGroup::addSection (const std::string &amp; name)</computeroutput></para><para>
+
+<para>Добавляет новый раздел в группу разделов </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>Название раздела </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_section_group_1a44d76d9271dd1028d557a3928be0e9bb"/><section>
+    <title>getAllSections()</title>
+<indexterm><primary>getAllSections</primary><secondary>SectionGroup</secondary></indexterm>
+<indexterm><primary>SectionGroup</primary><secondary>getAllSections</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; SectionGroup::getAllSections ( )</computeroutput></para><para>
+
+<para>Возвращает список всех разделов в группе </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор строк с названиями разделов </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_section_group_1a43fae633f1d04499b6f3891dc791e7ea"/><section>
+    <title>removeSection()</title>
+<indexterm><primary>removeSection</primary><secondary>SectionGroup</secondary></indexterm>
+<indexterm><primary>SectionGroup</primary><secondary>removeSection</secondary></indexterm>
+<para><computeroutput>void SectionGroup::removeSection (int index)</computeroutput></para><para>
+
+<para>Удаляет указанный раздел из группы </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс раздела </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+SectionGroup.h</section>
+</section>

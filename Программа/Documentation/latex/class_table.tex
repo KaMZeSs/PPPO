@@ -1,0 +1,80 @@
+\doxysection{Table Class Reference}
+\hypertarget{class_table}{}\label{class_table}\index{Table@{Table}}
+
+
+Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме  
+
+
+
+
+{\ttfamily \#include $<$Table.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_table_a0c55c75483b480b4a00a54fe27b06341}{create\+Table}} (int rows, int columns)
+\begin{DoxyCompactList}\small\item\em Создает новую таблицу с указанным количеством строк и столбцов \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_table_a5373ec5dbff59ae466c8a889a4651633}{edit\+Table}} (int index, const std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$ \&new\+Data)
+\begin{DoxyCompactList}\small\item\em Редактирует указанную таблицу \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_table_a836cdef8c8884049bdb3ecec10d5524b}{delete\+Table}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанную таблицу \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_table_a0c55c75483b480b4a00a54fe27b06341}\label{class_table_a0c55c75483b480b4a00a54fe27b06341} 
+\index{Table@{Table}!createTable@{createTable}}
+\index{createTable@{createTable}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{createTable()}{createTable()}}
+{\footnotesize\ttfamily void Table\+::create\+Table (\begin{DoxyParamCaption}\item[{int}]{rows,  }\item[{int}]{columns }\end{DoxyParamCaption})}
+
+
+
+Создает новую таблицу с указанным количеством строк и столбцов 
+
+
+\begin{DoxyParams}{Parameters}
+{\em rows} & Количество строк \\
+\hline
+{\em columns} & Количество столбцов \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_table_a836cdef8c8884049bdb3ecec10d5524b}\label{class_table_a836cdef8c8884049bdb3ecec10d5524b} 
+\index{Table@{Table}!deleteTable@{deleteTable}}
+\index{deleteTable@{deleteTable}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{deleteTable()}{deleteTable()}}
+{\footnotesize\ttfamily void Table\+::delete\+Table (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанную таблицу 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс таблицы \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_table_a5373ec5dbff59ae466c8a889a4651633}\label{class_table_a5373ec5dbff59ae466c8a889a4651633} 
+\index{Table@{Table}!editTable@{editTable}}
+\index{editTable@{editTable}!Table@{Table}}
+\doxysubsubsection{\texorpdfstring{editTable()}{editTable()}}
+{\footnotesize\ttfamily void Table\+::edit\+Table (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{const std\+::vector$<$ std\+::vector$<$ std\+::string $>$ $>$ \&}]{new\+Data }\end{DoxyParamCaption})}
+
+
+
+Редактирует указанную таблицу 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс таблицы \\
+\hline
+{\em new\+Data} & Новые данные \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Table.\+h\end{DoxyCompactItemize}

@@ -1,0 +1,81 @@
+\doxysection{Chart Class Reference}
+\hypertarget{class_chart}{}\label{class_chart}\index{Chart@{Chart}}
+
+
+Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице  
+
+
+
+
+{\ttfamily \#include $<$Chart.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_chart_a30cefbf6764f306b53924f610423e15d}{create\+Chart}} (const std\+::vector$<$ double $>$ \&data)
+\begin{DoxyCompactList}\small\item\em Создает новую диаграмму с указанными данными \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_chart_abce0f5e3a9dd8dde34085a49b5dd9803}{edit\+Chart}} (int index, const std\+::vector$<$ double $>$ \&new\+Data)
+\begin{DoxyCompactList}\small\item\em Редактирует указанную диаграмму \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_chart_aa0762cf7e29f1322fad6c59158cbf38a}{delete\+Chart}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанную диаграмму \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_chart_a30cefbf6764f306b53924f610423e15d}\label{class_chart_a30cefbf6764f306b53924f610423e15d} 
+\index{Chart@{Chart}!createChart@{createChart}}
+\index{createChart@{createChart}!Chart@{Chart}}
+\doxysubsubsection{\texorpdfstring{createChart()}{createChart()}}
+{\footnotesize\ttfamily int Chart\+::create\+Chart (\begin{DoxyParamCaption}\item[{const std\+::vector$<$ double $>$ \&}]{data }\end{DoxyParamCaption})}
+
+
+
+Создает новую диаграмму с указанными данными 
+
+
+\begin{DoxyParams}{Parameters}
+{\em data} & данные для диаграммы \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Номер диаграммы 
+\end{DoxyReturn}
+\Hypertarget{class_chart_aa0762cf7e29f1322fad6c59158cbf38a}\label{class_chart_aa0762cf7e29f1322fad6c59158cbf38a} 
+\index{Chart@{Chart}!deleteChart@{deleteChart}}
+\index{deleteChart@{deleteChart}!Chart@{Chart}}
+\doxysubsubsection{\texorpdfstring{deleteChart()}{deleteChart()}}
+{\footnotesize\ttfamily void Chart\+::delete\+Chart (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанную диаграмму 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & индекс диаграммы \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_chart_abce0f5e3a9dd8dde34085a49b5dd9803}\label{class_chart_abce0f5e3a9dd8dde34085a49b5dd9803} 
+\index{Chart@{Chart}!editChart@{editChart}}
+\index{editChart@{editChart}!Chart@{Chart}}
+\doxysubsubsection{\texorpdfstring{editChart()}{editChart()}}
+{\footnotesize\ttfamily void Chart\+::edit\+Chart (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{const std\+::vector$<$ double $>$ \&}]{new\+Data }\end{DoxyParamCaption})}
+
+
+
+Редактирует указанную диаграмму 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & индекс диаграммы \\
+\hline
+{\em new\+Data} & Новые данные \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Chart.\+h\end{DoxyCompactItemize}

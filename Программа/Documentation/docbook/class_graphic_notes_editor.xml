@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_graphic_notes_editor" xml:lang="en-US">
+<title>GraphicNotesEditor Class Reference</title>
+<indexterm><primary>GraphicNotesEditor</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю редактировать добавленные изображения, включая их обрезку или дополнительное рисование поверх них </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;GraphicNotesEditor.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_graphic_notes_editor_1a1a373acdc1f171a411b3323599a873b2">editImageNote</link> (<link linkend="_class_graphic_note">GraphicNote</link> note, const std::string &amp;newImagePath)</para>
+
+<para>Редактирует указанную графическую заметку </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю редактировать добавленные изображения, включая их обрезку или дополнительное рисование поверх них </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_graphic_notes_editor_1a1a373acdc1f171a411b3323599a873b2"/><section>
+    <title>editImageNote()</title>
+<indexterm><primary>editImageNote</primary><secondary>GraphicNotesEditor</secondary></indexterm>
+<indexterm><primary>GraphicNotesEditor</primary><secondary>editImageNote</secondary></indexterm>
+<para><computeroutput>void GraphicNotesEditor::editImageNote (<link linkend="_class_graphic_note">GraphicNote</link> note, const std::string &amp; newImagePath)</computeroutput></para><para>
+
+<para>Редактирует указанную графическую заметку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>note</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                            <row>
+<entry>newImagePath</entry><entry>
+<para>Новый путь к изображению </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+GraphicNotesEditor.h</section>
+</section>

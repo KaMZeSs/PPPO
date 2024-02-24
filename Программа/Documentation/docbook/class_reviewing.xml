@@ -1,0 +1,190 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_reviewing" xml:lang="en-US">
+<title>Reviewing Class Reference</title>
+<indexterm><primary>Reviewing</primary></indexterm>
+<para>
+
+<para>Предоставляет инструменты для проверки и редактирования содержимого заметок, включая проверку читаемости, орфографии, перевод текстов и защиту страниц паролем </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Reviewing.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>double <link linkend="_class_reviewing_1aab3fe27139bb299d829599ec73239bd4">checkReadability</link> (const std::string &amp;text)</para>
+
+<para>Проверяет читаемость указанной заметки </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_reviewing_1a0f58a71fd7bfe15a2bb88b787b4b471a">checkSpelling</link> (const std::string &amp;text)</para>
+
+<para>Проверяет орфографию в тексте </para>
+</listitem>
+            <listitem><para>std::string <link linkend="_class_reviewing_1afd2d80caf7e23f741aef9e5ea4d12c63">translateText</link> (const std::string &amp;text, const std::string &amp;language)</para>
+
+<para>Переводит текст на указанный язык </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_reviewing_1a9d3f07c0c3a66c1c08ef2242c8eddef0">setPassword</link> (int pageIndex, const std::string &amp;password)</para>
+
+<para>Устанавливает пароль на указанную страницу </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Предоставляет инструменты для проверки и редактирования содержимого заметок, включая проверку читаемости, орфографии, перевод текстов и защиту страниц паролем </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_reviewing_1aab3fe27139bb299d829599ec73239bd4"/><section>
+    <title>checkReadability()</title>
+<indexterm><primary>checkReadability</primary><secondary>Reviewing</secondary></indexterm>
+<indexterm><primary>Reviewing</primary><secondary>checkReadability</secondary></indexterm>
+<para><computeroutput>double Reviewing::checkReadability (const std::string &amp; text)</computeroutput></para><para>
+
+<para>Проверяет читаемость указанной заметки </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>Текст заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Оценка читаемости </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_reviewing_1a0f58a71fd7bfe15a2bb88b787b4b471a"/><section>
+    <title>checkSpelling()</title>
+<indexterm><primary>checkSpelling</primary><secondary>Reviewing</secondary></indexterm>
+<indexterm><primary>Reviewing</primary><secondary>checkSpelling</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; Reviewing::checkSpelling (const std::string &amp; text)</computeroutput></para><para>
+
+<para>Проверяет орфографию в тексте </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>Текст заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Список ошибок орфографии </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_reviewing_1a9d3f07c0c3a66c1c08ef2242c8eddef0"/><section>
+    <title>setPassword()</title>
+<indexterm><primary>setPassword</primary><secondary>Reviewing</secondary></indexterm>
+<indexterm><primary>Reviewing</primary><secondary>setPassword</secondary></indexterm>
+<para><computeroutput>void Reviewing::setPassword (int pageIndex, const std::string &amp; password)</computeroutput></para><para>
+
+<para>Устанавливает пароль на указанную страницу </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>pageIndex</entry><entry>
+<para>Индекс страницы </para>
+</entry>
+                            </row>
+                            <row>
+<entry>password</entry><entry>
+<para>Пароль </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_reviewing_1afd2d80caf7e23f741aef9e5ea4d12c63"/><section>
+    <title>translateText()</title>
+<indexterm><primary>translateText</primary><secondary>Reviewing</secondary></indexterm>
+<indexterm><primary>Reviewing</primary><secondary>translateText</secondary></indexterm>
+<para><computeroutput>std::string Reviewing::translateText (const std::string &amp; text, const std::string &amp; language)</computeroutput></para><para>
+
+<para>Переводит текст на указанный язык </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>text</entry><entry>
+<para>Текст заметки </para>
+</entry>
+                            </row>
+                            <row>
+<entry>language</entry><entry>
+<para>Язык перевода </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Переведенный текст </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Reviewing.h</section>
+</section>

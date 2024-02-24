@@ -1,0 +1,77 @@
+\doxysection{Block\+Display Class Reference}
+\hypertarget{class_block_display}{}\label{class_block_display}\index{BlockDisplay@{BlockDisplay}}
+
+
+Предоставляет области для содержимого заметок на странице, которые могут иметь разную форму и располагаться в разных частях страницы  
+
+
+
+
+{\ttfamily \#include $<$Block\+Display.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_block_display_afca39b960fc89e843ada880df1b1503a}{add\+Block}} (const std\+::string \&text)
+\begin{DoxyCompactList}\small\item\em Добавляет новый блок на страницу \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_block_display_acade3ba1c8ba8262bf7ad5737cde9b35}{remove\+Block}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанный блок со страницы \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_block_display_a1b51a6b203e07f5b7c8b080768f3f0d6}{get\+All\+Blocks}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает все блоки на странице \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Предоставляет области для содержимого заметок на странице, которые могут иметь разную форму и располагаться в разных частях страницы 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_block_display_afca39b960fc89e843ada880df1b1503a}\label{class_block_display_afca39b960fc89e843ada880df1b1503a} 
+\index{BlockDisplay@{BlockDisplay}!addBlock@{addBlock}}
+\index{addBlock@{addBlock}!BlockDisplay@{BlockDisplay}}
+\doxysubsubsection{\texorpdfstring{addBlock()}{addBlock()}}
+{\footnotesize\ttfamily int Block\+Display\+::add\+Block (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{text }\end{DoxyParamCaption})}
+
+
+
+Добавляет новый блок на страницу 
+
+
+\begin{DoxyParams}{Parameters}
+{\em text} & текст блока \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Номер файла 
+\end{DoxyReturn}
+\Hypertarget{class_block_display_a1b51a6b203e07f5b7c8b080768f3f0d6}\label{class_block_display_a1b51a6b203e07f5b7c8b080768f3f0d6} 
+\index{BlockDisplay@{BlockDisplay}!getAllBlocks@{getAllBlocks}}
+\index{getAllBlocks@{getAllBlocks}!BlockDisplay@{BlockDisplay}}
+\doxysubsubsection{\texorpdfstring{getAllBlocks()}{getAllBlocks()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Block\+Display\+::get\+All\+Blocks (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает все блоки на странице 
+
+\begin{DoxyReturn}{Returns}
+Массив строк содержимого блоков 
+\end{DoxyReturn}
+\Hypertarget{class_block_display_acade3ba1c8ba8262bf7ad5737cde9b35}\label{class_block_display_acade3ba1c8ba8262bf7ad5737cde9b35} 
+\index{BlockDisplay@{BlockDisplay}!removeBlock@{removeBlock}}
+\index{removeBlock@{removeBlock}!BlockDisplay@{BlockDisplay}}
+\doxysubsubsection{\texorpdfstring{removeBlock()}{removeBlock()}}
+{\footnotesize\ttfamily void Block\+Display\+::remove\+Block (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанный блок со страницы 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & индекс блока \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Block\+Display.\+h\end{DoxyCompactItemize}

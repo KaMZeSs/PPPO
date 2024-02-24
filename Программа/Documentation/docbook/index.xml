@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<book xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_index" xml:lang="en-US">
+    <info>
+    <title>PPPI</title>
+    </info>
+    <xi:include href="md__x_d0_x9_c_x_d0_x_b_e_x_d0_x_b4_x_d1_x83_x_d0_x_b_b_x_d0_x_b8.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="md__x_d0_x9_f_x_d0_x_b_b_x_d0_x_b0_x_d0_x_b_d_01_x_d1_x80_x_d0_x_b0_x_d0_x_b7_x_d1_x80_x_d0_x_b0aa35ce674e17062099745fbe7ec285c3.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+<chapter>
+    <title>Class Documentation</title>
+    <xi:include href="class_background_color.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_binary.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_block_display.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_chart.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_document.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_equation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_file_creation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_file_export.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_file_opening.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_graphic_note.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_graphic_notes_creator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_graphic_notes_editor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_graphic_notes_importer.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_journaling.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_link.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_page_grid.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_page_scale.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_quick_note_window.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_reviewing.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_section.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_section_editor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_section_group.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_section_tree.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_settings.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_table.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_tags_manager.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_text_note.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_text_notes_creator.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_text_notes_deleter.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_text_notes_editor.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_window_creation.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="class_window_pinning.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<chapter>
+    <title>File Documentation</title>
+    <xi:include href="_background_color_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_binary_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_block_display_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_chart_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_document_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_equation_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_creation_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_export_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_file_opening_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_note_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_notes_creator_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_notes_editor_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_graphic_notes_importer_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_journaling_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_link_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_page_grid_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_page_scale_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_quick_note_window_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_reviewing_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_section_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_section_editor_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_section_group_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_section_tree_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_settings_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_table_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_tags_manager_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_text_note_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_text_notes_creator_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_text_notes_deleter_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_text_notes_editor_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_window_creation_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+    <xi:include href="_window_pinning_8h_source.xml" xmlns:xi="http://www.w3.org/2001/XInclude"/>
+</chapter>
+<index/>
+</book>

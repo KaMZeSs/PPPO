@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_file_opening" xml:lang="en-US">
+<title>FileOpening Class Reference</title>
+<indexterm><primary>FileOpening</primary></indexterm>
+<para>
+
+<para>Позволяет пользователям открывать уже существующие файлы с заметками для дальнейшего редактирования </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;FileOpening.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>bool <link linkend="_class_file_opening_1a41bea59ff12510cfad0b743229aff29c">openFile</link> (const std::string &amp;name)</para>
+
+<para>Открывает существующий файл </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователям открывать уже существующие файлы с заметками для дальнейшего редактирования </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_file_opening_1a41bea59ff12510cfad0b743229aff29c"/><section>
+    <title>openFile()</title>
+<indexterm><primary>openFile</primary><secondary>FileOpening</secondary></indexterm>
+<indexterm><primary>FileOpening</primary><secondary>openFile</secondary></indexterm>
+<para><computeroutput>bool FileOpening::openFile (const std::string &amp; name)</computeroutput></para><para>
+
+<para>Открывает существующий файл </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>name</entry><entry>
+<para>Имя файла </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>true, если файл успешно открыт, false в противном случае </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+FileOpening.h</section>
+</section>

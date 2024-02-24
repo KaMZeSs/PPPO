@@ -1,0 +1,147 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_tags_manager" xml:lang="en-US">
+<title>TagsManager Class Reference</title>
+<indexterm><primary>TagsManager</primary></indexterm>
+<para>
+
+<para>Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации. </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;TagsManager.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_tags_manager_1adca2b1a31a5af3b6a13815dab6d26147">addTag</link> (int index, const std::string &amp;tag)</para>
+
+<para>Добавляет тег к указанной заметке </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_tags_manager_1a2cbfebc2698d2c974eff716354dc39db">removeTag</link> (int index, const std::string &amp;tag)</para>
+
+<para>Удаляет тег из указанной заметки </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_tags_manager_1a5a9062b14322296b563497045bcf1e64">getTagsForNote</link> (int index)</para>
+
+<para>Возвращает все теги для указанной заметки </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации. </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_tags_manager_1adca2b1a31a5af3b6a13815dab6d26147"/><section>
+    <title>addTag()</title>
+<indexterm><primary>addTag</primary><secondary>TagsManager</secondary></indexterm>
+<indexterm><primary>TagsManager</primary><secondary>addTag</secondary></indexterm>
+<para><computeroutput>void TagsManager::addTag (int index, const std::string &amp; tag)</computeroutput></para><para>
+
+<para>Добавляет тег к указанной заметке </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                            <row>
+<entry>tag</entry><entry>
+<para>Тег </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_tags_manager_1a5a9062b14322296b563497045bcf1e64"/><section>
+    <title>getTagsForNote()</title>
+<indexterm><primary>getTagsForNote</primary><secondary>TagsManager</secondary></indexterm>
+<indexterm><primary>TagsManager</primary><secondary>getTagsForNote</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; TagsManager::getTagsForNote (int index)</computeroutput></para><para>
+
+<para>Возвращает все теги для указанной заметки </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Вектор строк с тегами </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_tags_manager_1a2cbfebc2698d2c974eff716354dc39db"/><section>
+    <title>removeTag()</title>
+<indexterm><primary>removeTag</primary><secondary>TagsManager</secondary></indexterm>
+<indexterm><primary>TagsManager</primary><secondary>removeTag</secondary></indexterm>
+<para><computeroutput>void TagsManager::removeTag (int index, const std::string &amp; tag)</computeroutput></para><para>
+
+<para>Удаляет тег из указанной заметки </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс заметки </para>
+</entry>
+                            </row>
+                            <row>
+<entry>tag</entry><entry>
+<para>Тег </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TagsManager.h</section>
+</section>

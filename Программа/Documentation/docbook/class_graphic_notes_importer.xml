@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_graphic_notes_importer" xml:lang="en-US">
+<title>GraphicNotesImporter Class Reference</title>
+<indexterm><primary>GraphicNotesImporter</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю добавлять существующие изображения на страницу в качестве графических заметок </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;GraphicNotesImporter.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para><link linkend="_class_graphic_note">GraphicNote</link> <link linkend="_class_graphic_notes_importer_1a33d6d1eb2788729a42f30a289c88fff7">importImageNote</link> (const std::string &amp;imagePath)</para>
+
+<para>Импортирует изображение в виде заметки </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю добавлять существующие изображения на страницу в качестве графических заметок </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_graphic_notes_importer_1a33d6d1eb2788729a42f30a289c88fff7"/><section>
+    <title>importImageNote()</title>
+<indexterm><primary>importImageNote</primary><secondary>GraphicNotesImporter</secondary></indexterm>
+<indexterm><primary>GraphicNotesImporter</primary><secondary>importImageNote</secondary></indexterm>
+<para><computeroutput><link linkend="_class_graphic_note">GraphicNote</link> GraphicNotesImporter::importImageNote (const std::string &amp; imagePath)</computeroutput></para><para>
+
+<para>Импортирует изображение в виде заметки </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>imagePath</entry><entry>
+<para>Путь к изображению </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Графическая заметка </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+GraphicNotesImporter.h</section>
+</section>

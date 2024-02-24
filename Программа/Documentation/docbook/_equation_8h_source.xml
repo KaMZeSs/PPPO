@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__equation_8h_source" xml:lang="en-US">
+<title>Equation.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_equation">Equation</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_equation_1accbeb5c49b10a05d6f903a1bc8a66e54">createEquation</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;equation);
+15 
+19 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_equation_1aa43bd4c0f7b4252507dbd32b8acebe29">editEquation</link>(<emphasis role="keywordtype">int</emphasis>&#32;index,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;newEquation);
+20 
+23 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_equation_1a89a0151db9f3bc8a72e949c5ede0197f">deleteEquation</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+24 
+25 <emphasis role="keyword">private</emphasis>:
+27 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;equations;
+28 };
+29 
+30 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;COMPLEX_OBJECTS_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

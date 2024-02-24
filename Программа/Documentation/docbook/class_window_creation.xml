@@ -1,0 +1,67 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_window_creation" xml:lang="en-US">
+<title>WindowCreation Class Reference</title>
+<indexterm><primary>WindowCreation</primary></indexterm>
+<para>
+
+<para>Позволяет пользователям создавать новые окна для работы с двумя или более страницами одновременно, что повышает производительность и удобство использования приложения </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;WindowCreation.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_window_creation_1a37ab467365a8e9eef1237d789f783642">createWindow</link> (const std::string &amp;title)</para>
+
+<para>Создает новое окно с указанным названием </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователям создавать новые окна для работы с двумя или более страницами одновременно, что повышает производительность и удобство использования приложения </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_window_creation_1a37ab467365a8e9eef1237d789f783642"/><section>
+    <title>createWindow()</title>
+<indexterm><primary>createWindow</primary><secondary>WindowCreation</secondary></indexterm>
+<indexterm><primary>WindowCreation</primary><secondary>createWindow</secondary></indexterm>
+<para><computeroutput>int WindowCreation::createWindow (const std::string &amp; title)</computeroutput></para><para>
+
+<para>Создает новое окно с указанным названием </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>title</entry><entry>
+<para>Название окна </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Идентификатор созданного окна (windowId) </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+WindowCreation.h</section>
+</section>

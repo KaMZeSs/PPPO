@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_graphic_note" xml:lang="en-US">
+<title>GraphicNote Class Reference</title>
+<indexterm><primary>GraphicNote</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю добавлять и редактировать графические элементы на странице, такие как изображения и рисунки </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;GraphicNote.h&gt;</computeroutput>
+</para>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю добавлять и редактировать графические элементы на странице, такие как изображения и рисунки </para>
+<para>
+The documentation for this class was generated from the following file:</para>
+GraphicNote.h</section>
+</section>

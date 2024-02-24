@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__binary_8h_source" xml:lang="en-US">
+<title>Binary.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_binary">Binary</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_binary_1acae07f4703f85a36b0d3c6308c7f1cdd">addBinary</link>(<emphasis role="keyword">const</emphasis>&#32;std::vector&lt;byte&gt;&#32;&amp;data);
+15 
+18 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_binary_1a3aeb96e4d6fc45350afc44b21d0f2f25">deleteBinary</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+19 
+23 &#32;&#32;&#32;&#32;std::vector&lt;byte&gt;&#32;<link linkend="_class_binary_1a01f2b97a406f587b0046810a0821c0ba">exportBinary</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+24 
+27 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_binary_1afe8227d65891b0e6c434785e7e829993">viewBinary</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+28 
+29 <emphasis role="keyword">private</emphasis>:
+31 &#32;&#32;&#32;&#32;std::vector&lt;Binary&gt;&#32;binaries;
+32 };
+33 
+34 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;COMPLEX_OBJECTS_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

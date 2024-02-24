@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_link" xml:lang="en-US">
+<title>Link Class Reference</title>
+<indexterm><primary>Link</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю создавать и редактировать ссылки на интернет-источники прямо на странице </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Link.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>int <link linkend="_class_link_1add764b0ec4c676de9eef84aa67e2865d">addLink</link> (std::string link)</para>
+
+<para>Создает новую ссылку </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_link_1a7a4cc6f3021cf668383442d674cc672b">deleteLink</link> (int index)</para>
+
+<para>Удаляет указанную ссылку </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю создавать и редактировать ссылки на интернет-источники прямо на странице </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_link_1add764b0ec4c676de9eef84aa67e2865d"/><section>
+    <title>addLink()</title>
+<indexterm><primary>addLink</primary><secondary>Link</secondary></indexterm>
+<indexterm><primary>Link</primary><secondary>addLink</secondary></indexterm>
+<para><computeroutput>int Link::addLink (std::string link)</computeroutput></para><para>
+
+<para>Создает новую ссылку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>link</entry><entry>
+<para>Адрес ссылки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                <formalpara><title>Returns</title>
+
+<para>Номер ссылки на странице </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_link_1a7a4cc6f3021cf668383442d674cc672b"/><section>
+    <title>deleteLink()</title>
+<indexterm><primary>deleteLink</primary><secondary>Link</secondary></indexterm>
+<indexterm><primary>Link</primary><secondary>deleteLink</secondary></indexterm>
+<para><computeroutput>void Link::deleteLink (int index)</computeroutput></para><para>
+
+<para>Удаляет указанную ссылку </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс ссылки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Link.h</section>
+</section>

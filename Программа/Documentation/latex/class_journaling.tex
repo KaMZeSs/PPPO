@@ -1,0 +1,57 @@
+\doxysection{Journaling Class Reference}
+\hypertarget{class_journaling}{}\label{class_journaling}\index{Journaling@{Journaling}}
+
+
+Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий  
+
+
+
+
+{\ttfamily \#include $<$Journaling.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_journaling_a41932d92b92920ac9e77dc3fac2387db}{log\+Change}} (const std\+::string \&description)
+\begin{DoxyCompactList}\small\item\em Сохраняет запись об изменении \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_journaling_a5fb4b59454b3551dd3107a01ab88a253}{get\+All\+Changes}} ()
+\begin{DoxyCompactList}\small\item\em Возвращает список всех изменений \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_journaling_a5fb4b59454b3551dd3107a01ab88a253}\label{class_journaling_a5fb4b59454b3551dd3107a01ab88a253} 
+\index{Journaling@{Journaling}!getAllChanges@{getAllChanges}}
+\index{getAllChanges@{getAllChanges}!Journaling@{Journaling}}
+\doxysubsubsection{\texorpdfstring{getAllChanges()}{getAllChanges()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Journaling\+::get\+All\+Changes (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Возвращает список всех изменений 
+
+\begin{DoxyReturn}{Returns}
+Вектор строк с описаниями изменений 
+\end{DoxyReturn}
+\Hypertarget{class_journaling_a41932d92b92920ac9e77dc3fac2387db}\label{class_journaling_a41932d92b92920ac9e77dc3fac2387db} 
+\index{Journaling@{Journaling}!logChange@{logChange}}
+\index{logChange@{logChange}!Journaling@{Journaling}}
+\doxysubsubsection{\texorpdfstring{logChange()}{logChange()}}
+{\footnotesize\ttfamily void Journaling\+::log\+Change (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{description }\end{DoxyParamCaption})}
+
+
+
+Сохраняет запись об изменении 
+
+
+\begin{DoxyParams}{Parameters}
+{\em description} & Описание изменения \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Journaling.\+h\end{DoxyCompactItemize}

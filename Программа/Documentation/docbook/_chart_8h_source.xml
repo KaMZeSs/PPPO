@@ -1,0 +1,24 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__chart_8h_source" xml:lang="en-US">
+<title>Chart.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;COMPLEX_OBJECTS_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_chart">Chart</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;<link linkend="_class_chart_1a30cefbf6764f306b53924f610423e15d">createChart</link>(<emphasis role="keyword">const</emphasis>&#32;std::vector&lt;double&gt;&#32;&amp;data);
+15 
+19 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_chart_1abce0f5e3a9dd8dde34085a49b5dd9803">editChart</link>(<emphasis role="keywordtype">int</emphasis>&#32;index,&#32;<emphasis role="keyword">const</emphasis>&#32;std::vector&lt;double&gt;&#32;&amp;newData);
+20 
+23 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_chart_1aa0762cf7e29f1322fad6c59158cbf38a">deleteChart</link>(<emphasis role="keywordtype">int</emphasis>&#32;index);
+24 
+25 <emphasis role="keyword">private</emphasis>:
+27 &#32;&#32;&#32;&#32;std::vector&lt;std::vector&lt;double&gt;&gt;&#32;charts;
+28 };
+29 
+30 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;COMPLEX_OBJECTS_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

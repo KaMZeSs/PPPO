@@ -1,0 +1,47 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_text_note" xml:lang="en-US">
+<title>TextNote Class Reference</title>
+<indexterm><primary>TextNote</primary></indexterm>
+<para>
+
+<para>Представляет собой текстовую заметку </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;TextNote.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_text_note_1a41b0de3084fc5276c0864008806a60da">getAllTextNotes</link> ()</para>
+
+<para>Возвращает все текстовые заметки </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Представляет собой текстовую заметку </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_text_note_1a41b0de3084fc5276c0864008806a60da"/><section>
+    <title>getAllTextNotes()</title>
+<indexterm><primary>getAllTextNotes</primary><secondary>TextNote</secondary></indexterm>
+<indexterm><primary>TextNote</primary><secondary>getAllTextNotes</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; TextNote::getAllTextNotes ( )</computeroutput></para><para>
+
+<para>Возвращает все текстовые заметки </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор строк с текстами заметок </para>
+</formalpara>
+</para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+TextNote.h</section>
+</section>

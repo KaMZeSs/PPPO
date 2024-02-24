@@ -1,0 +1,81 @@
+\doxysection{Equation Class Reference}
+\hypertarget{class_equation}{}\label{class_equation}\index{Equation@{Equation}}
+
+
+Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора  
+
+
+
+
+{\ttfamily \#include $<$Equation.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+int \mbox{\hyperlink{class_equation_accbeb5c49b10a05d6f903a1bc8a66e54}{create\+Equation}} (const std\+::string \&equation)
+\begin{DoxyCompactList}\small\item\em Создает новое уравнение \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_equation_aa43bd4c0f7b4252507dbd32b8acebe29}{edit\+Equation}} (int index, const std\+::string \&new\+Equation)
+\begin{DoxyCompactList}\small\item\em Редактирует указанное уравнение \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_equation_a89a0151db9f3bc8a72e949c5ede0197f}{delete\+Equation}} (int index)
+\begin{DoxyCompactList}\small\item\em Удаляет указанное уравнение \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_equation_accbeb5c49b10a05d6f903a1bc8a66e54}\label{class_equation_accbeb5c49b10a05d6f903a1bc8a66e54} 
+\index{Equation@{Equation}!createEquation@{createEquation}}
+\index{createEquation@{createEquation}!Equation@{Equation}}
+\doxysubsubsection{\texorpdfstring{createEquation()}{createEquation()}}
+{\footnotesize\ttfamily int Equation\+::create\+Equation (\begin{DoxyParamCaption}\item[{const std\+::string \&}]{equation }\end{DoxyParamCaption})}
+
+
+
+Создает новое уравнение 
+
+
+\begin{DoxyParams}{Parameters}
+{\em equation} & Строка, представляющая уравнение \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Номер уравнения 
+\end{DoxyReturn}
+\Hypertarget{class_equation_a89a0151db9f3bc8a72e949c5ede0197f}\label{class_equation_a89a0151db9f3bc8a72e949c5ede0197f} 
+\index{Equation@{Equation}!deleteEquation@{deleteEquation}}
+\index{deleteEquation@{deleteEquation}!Equation@{Equation}}
+\doxysubsubsection{\texorpdfstring{deleteEquation()}{deleteEquation()}}
+{\footnotesize\ttfamily void Equation\+::delete\+Equation (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Удаляет указанное уравнение 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & индекс уравнения \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_equation_aa43bd4c0f7b4252507dbd32b8acebe29}\label{class_equation_aa43bd4c0f7b4252507dbd32b8acebe29} 
+\index{Equation@{Equation}!editEquation@{editEquation}}
+\index{editEquation@{editEquation}!Equation@{Equation}}
+\doxysubsubsection{\texorpdfstring{editEquation()}{editEquation()}}
+{\footnotesize\ttfamily void Equation\+::edit\+Equation (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{const std\+::string \&}]{new\+Equation }\end{DoxyParamCaption})}
+
+
+
+Редактирует указанное уравнение 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс уравнения \\
+\hline
+{\em new\+Equation} & Новое уравнение \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Equation.\+h\end{DoxyCompactItemize}

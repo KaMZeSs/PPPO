@@ -1,0 +1,143 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_table" xml:lang="en-US">
+<title>Table Class Reference</title>
+<indexterm><primary>Table</primary></indexterm>
+<para>
+
+<para>Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Table.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_table_1a0c55c75483b480b4a00a54fe27b06341">createTable</link> (int rows, int columns)</para>
+
+<para>Создает новую таблицу с указанным количеством строк и столбцов </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_table_1a5373ec5dbff59ae466c8a889a4651633">editTable</link> (int index, const std::vector&lt; std::vector&lt; std::string &gt; &gt; &amp;newData)</para>
+
+<para>Редактирует указанную таблицу </para>
+</listitem>
+            <listitem><para>void <link linkend="_class_table_1a836cdef8c8884049bdb3ecec10d5524b">deleteTable</link> (int index)</para>
+
+<para>Удаляет указанную таблицу </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_table_1a0c55c75483b480b4a00a54fe27b06341"/><section>
+    <title>createTable()</title>
+<indexterm><primary>createTable</primary><secondary>Table</secondary></indexterm>
+<indexterm><primary>Table</primary><secondary>createTable</secondary></indexterm>
+<para><computeroutput>void Table::createTable (int rows, int columns)</computeroutput></para><para>
+
+<para>Создает новую таблицу с указанным количеством строк и столбцов </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>rows</entry><entry>
+<para>Количество строк </para>
+</entry>
+                            </row>
+                            <row>
+<entry>columns</entry><entry>
+<para>Количество столбцов </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_table_1a836cdef8c8884049bdb3ecec10d5524b"/><section>
+    <title>deleteTable()</title>
+<indexterm><primary>deleteTable</primary><secondary>Table</secondary></indexterm>
+<indexterm><primary>Table</primary><secondary>deleteTable</secondary></indexterm>
+<para><computeroutput>void Table::deleteTable (int index)</computeroutput></para><para>
+
+<para>Удаляет указанную таблицу </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс таблицы </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<anchor xml:id="_class_table_1a5373ec5dbff59ae466c8a889a4651633"/><section>
+    <title>editTable()</title>
+<indexterm><primary>editTable</primary><secondary>Table</secondary></indexterm>
+<indexterm><primary>Table</primary><secondary>editTable</secondary></indexterm>
+<para><computeroutput>void Table::editTable (int index, const std::vector&lt; std::vector&lt; std::string &gt; &gt; &amp; newData)</computeroutput></para><para>
+
+<para>Редактирует указанную таблицу </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>index</entry><entry>
+<para>Индекс таблицы </para>
+</entry>
+                            </row>
+                            <row>
+<entry>newData</entry><entry>
+<para>Новые данные </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Table.h</section>
+</section>

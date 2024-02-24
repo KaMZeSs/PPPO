@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__file_creation_8h_source" xml:lang="en-US">
+<title>FileCreation.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;FILE_CREATION_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;FILE_CREATION_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 
+7 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_file_creation">FileCreation</link>
+8 {
+9 <emphasis role="keyword">public</emphasis>:
+13 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_file_creation_1a566a52872d58cab3ce9859f0c3ee2207">createFile</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;name);
+14 
+15 <emphasis role="keyword">private</emphasis>:
+17 &#32;&#32;&#32;&#32;std::string&#32;fileName;
+18 };
+19 
+20 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;FILE_CREATION_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

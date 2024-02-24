@@ -1,0 +1,63 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_page_grid" xml:lang="en-US">
+<title>PageGrid Class Reference</title>
+<indexterm><primary>PageGrid</primary></indexterm>
+<para>
+
+<para>Обеспечивает возможность добавления сетки или линий на фон страницы для удобства выравнивания элементов </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;PageGrid.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_page_grid_1a750cdd21f7c57da69473acc9bb6876b3">addGrid</link> (int gridStep)</para>
+
+<para>Добавляет сетку на страницу </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Обеспечивает возможность добавления сетки или линий на фон страницы для удобства выравнивания элементов </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_page_grid_1a750cdd21f7c57da69473acc9bb6876b3"/><section>
+    <title>addGrid()</title>
+<indexterm><primary>addGrid</primary><secondary>PageGrid</secondary></indexterm>
+<indexterm><primary>PageGrid</primary><secondary>addGrid</secondary></indexterm>
+<para><computeroutput>void PageGrid::addGrid (int gridStep)</computeroutput></para><para>
+
+<para>Добавляет сетку на страницу </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>gridStep</entry><entry>
+<para>шаг сетки </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+PageGrid.h</section>
+</section>

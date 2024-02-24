@@ -1,0 +1,23 @@
+\doxysection{Journaling.\+h}
+\hypertarget{_journaling_8h_source}{}\label{_journaling_8h_source}
+\begin{DoxyCode}{0}
+\DoxyCodeLine{00001\ \textcolor{preprocessor}{\#ifndef\ JOURNALING\_H}}
+\DoxyCodeLine{00002\ \textcolor{preprocessor}{\#define\ JOURNALING\_H}}
+\DoxyCodeLine{00003\ }
+\DoxyCodeLine{00004\ \textcolor{preprocessor}{\#include\ <string>}}
+\DoxyCodeLine{00005\ \textcolor{preprocessor}{\#include\ <vector>}}
+\DoxyCodeLine{00006\ }
+\DoxyCodeLine{00008\ \textcolor{keyword}{class\ }\mbox{\hyperlink{class_journaling}{Journaling}}}
+\DoxyCodeLine{00009\ \{}
+\DoxyCodeLine{00010\ \textcolor{keyword}{public}:}
+\DoxyCodeLine{00013\ \ \ \ \ \textcolor{keywordtype}{void}\ \mbox{\hyperlink{class_journaling_a41932d92b92920ac9e77dc3fac2387db}{logChange}}(\textcolor{keyword}{const}\ std::string\ \&description);}
+\DoxyCodeLine{00014\ }
+\DoxyCodeLine{00017\ \ \ \ \ std::vector<std::string>\ \mbox{\hyperlink{class_journaling_a5fb4b59454b3551dd3107a01ab88a253}{getAllChanges}}();}
+\DoxyCodeLine{00018\ }
+\DoxyCodeLine{00019\ \textcolor{keyword}{private}:}
+\DoxyCodeLine{00021\ \ \ \ \ std::vector<std::string>\ changesLog;}
+\DoxyCodeLine{00022\ \};}
+\DoxyCodeLine{00023\ }
+\DoxyCodeLine{00024\ \textcolor{preprocessor}{\#endif\ }\textcolor{comment}{/*\ JOURNALING\_H\ */}\textcolor{preprocessor}{}}
+
+\end{DoxyCode}

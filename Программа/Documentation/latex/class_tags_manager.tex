@@ -1,0 +1,83 @@
+\doxysection{Tags\+Manager Class Reference}
+\hypertarget{class_tags_manager}{}\label{class_tags_manager}\index{TagsManager@{TagsManager}}
+
+
+Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации.  
+
+
+
+
+{\ttfamily \#include $<$Tags\+Manager.\+h$>$}
+
+\doxysubsubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \mbox{\hyperlink{class_tags_manager_adca2b1a31a5af3b6a13815dab6d26147}{add\+Tag}} (int index, const std\+::string \&tag)
+\begin{DoxyCompactList}\small\item\em Добавляет тег к указанной заметке \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{class_tags_manager_a2cbfebc2698d2c974eff716354dc39db}{remove\+Tag}} (int index, const std\+::string \&tag)
+\begin{DoxyCompactList}\small\item\em Удаляет тег из указанной заметки \end{DoxyCompactList}\item 
+std\+::vector$<$ std\+::string $>$ \mbox{\hyperlink{class_tags_manager_a5a9062b14322296b563497045bcf1e64}{get\+Tags\+For\+Note}} (int index)
+\begin{DoxyCompactList}\small\item\em Возвращает все теги для указанной заметки \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации. 
+
+\doxysubsection{Member Function Documentation}
+\Hypertarget{class_tags_manager_adca2b1a31a5af3b6a13815dab6d26147}\label{class_tags_manager_adca2b1a31a5af3b6a13815dab6d26147} 
+\index{TagsManager@{TagsManager}!addTag@{addTag}}
+\index{addTag@{addTag}!TagsManager@{TagsManager}}
+\doxysubsubsection{\texorpdfstring{addTag()}{addTag()}}
+{\footnotesize\ttfamily void Tags\+Manager\+::add\+Tag (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption})}
+
+
+
+Добавляет тег к указанной заметке 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс заметки \\
+\hline
+{\em tag} & Тег \\
+\hline
+\end{DoxyParams}
+\Hypertarget{class_tags_manager_a5a9062b14322296b563497045bcf1e64}\label{class_tags_manager_a5a9062b14322296b563497045bcf1e64} 
+\index{TagsManager@{TagsManager}!getTagsForNote@{getTagsForNote}}
+\index{getTagsForNote@{getTagsForNote}!TagsManager@{TagsManager}}
+\doxysubsubsection{\texorpdfstring{getTagsForNote()}{getTagsForNote()}}
+{\footnotesize\ttfamily std\+::vector$<$ std\+::string $>$ Tags\+Manager\+::get\+Tags\+For\+Note (\begin{DoxyParamCaption}\item[{int}]{index }\end{DoxyParamCaption})}
+
+
+
+Возвращает все теги для указанной заметки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс заметки \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+Вектор строк с тегами 
+\end{DoxyReturn}
+\Hypertarget{class_tags_manager_a2cbfebc2698d2c974eff716354dc39db}\label{class_tags_manager_a2cbfebc2698d2c974eff716354dc39db} 
+\index{TagsManager@{TagsManager}!removeTag@{removeTag}}
+\index{removeTag@{removeTag}!TagsManager@{TagsManager}}
+\doxysubsubsection{\texorpdfstring{removeTag()}{removeTag()}}
+{\footnotesize\ttfamily void Tags\+Manager\+::remove\+Tag (\begin{DoxyParamCaption}\item[{int}]{index,  }\item[{const std\+::string \&}]{tag }\end{DoxyParamCaption})}
+
+
+
+Удаляет тег из указанной заметки 
+
+
+\begin{DoxyParams}{Parameters}
+{\em index} & Индекс заметки \\
+\hline
+{\em tag} & Тег \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following file\+:\begin{DoxyCompactItemize}
+\item 
+Tags\+Manager.\+h\end{DoxyCompactItemize}

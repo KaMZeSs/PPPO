@@ -1,0 +1,82 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="_class_journaling" xml:lang="en-US">
+<title>Journaling Class Reference</title>
+<indexterm><primary>Journaling</primary></indexterm>
+<para>
+
+<para>Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий </para>
+ 
+</para>
+<para>
+<computeroutput>#include &lt;Journaling.h&gt;</computeroutput>
+</para>
+<simplesect>
+    <title>Public Member Functions    </title>
+        <itemizedlist>
+            <listitem><para>void <link linkend="_class_journaling_1a41932d92b92920ac9e77dc3fac2387db">logChange</link> (const std::string &amp;description)</para>
+
+<para>Сохраняет запись об изменении </para>
+</listitem>
+            <listitem><para>std::vector&lt; std::string &gt; <link linkend="_class_journaling_1a5fb4b59454b3551dd3107a01ab88a253">getAllChanges</link> ()</para>
+
+<para>Возвращает список всех изменений </para>
+</listitem>
+        </itemizedlist>
+</simplesect>
+<section>
+<title>Detailed Description</title>
+
+<para>Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий </para>
+</section>
+<section>
+<title>Member Function Documentation</title>
+<anchor xml:id="_class_journaling_1a5fb4b59454b3551dd3107a01ab88a253"/><section>
+    <title>getAllChanges()</title>
+<indexterm><primary>getAllChanges</primary><secondary>Journaling</secondary></indexterm>
+<indexterm><primary>Journaling</primary><secondary>getAllChanges</secondary></indexterm>
+<para><computeroutput>std::vector&lt; std::string &gt; Journaling::getAllChanges ( )</computeroutput></para><para>
+
+<para>Возвращает список всех изменений </para>
+</para>
+
+<para><formalpara><title>Returns</title>
+
+<para>Вектор строк с описаниями изменений </para>
+</formalpara>
+</para>
+</section>
+<anchor xml:id="_class_journaling_1a41932d92b92920ac9e77dc3fac2387db"/><section>
+    <title>logChange()</title>
+<indexterm><primary>logChange</primary><secondary>Journaling</secondary></indexterm>
+<indexterm><primary>Journaling</primary><secondary>logChange</secondary></indexterm>
+<para><computeroutput>void Journaling::logChange (const std::string &amp; description)</computeroutput></para><para>
+
+<para>Сохраняет запись об изменении </para>
+</para>
+
+<para>
+                <formalpara>
+                    <title>
+Parameters</title>
+                    <para>
+                    <table frame="all">
+                        <tgroup cols="2" align="left" colsep="1" rowsep="1">
+                        <colspec colwidth="1*"/>
+                        <colspec colwidth="4*"/>
+                        <tbody>
+                            <row>
+<entry>description</entry><entry>
+<para>Описание изменения </para>
+</entry>
+                            </row>
+                        </tbody>
+                        </tgroup>
+                    </table>
+                    </para>
+                </formalpara>
+                </para>
+</section>
+<para>
+The documentation for this class was generated from the following file:</para>
+Journaling.h</section>
+</section>

@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__settings_8h_source" xml:lang="en-US">
+<title>Settings.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;SETTINGS_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;SETTINGS_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_settings">Settings</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_settings_1a14a73e547f010d746afca65ee1e43a6f">setLanguage</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;language);
+15 
+19 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_settings_1a93eee24ccd588d22667c4c6b0f79cfcc">setDefaultFontSize</link>(<emphasis role="keywordtype">int</emphasis>&#32;fontSize);
+20 
+24 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_settings_1a56600c10efd7cd151ed0bd89cbdb3f00">setTheme</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;themeName);
+25 
+29 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_settings_1acd108b9a23c60cc970e90c0f1832b594">addSavePath</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;path);
+30 
+34 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">bool</emphasis>&#32;<link linkend="_class_settings_1aeb3dbe15f800039cc22dbda08578c961">removeSavePath</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;path);
+35 
+38 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;<link linkend="_class_settings_1a8c5b3771fd3a0400af03a84ae3f08d6f">getAvailableThemes</link>();
+39 
+40 <emphasis role="keyword">private</emphasis>:
+42 &#32;&#32;&#32;&#32;std::string&#32;currentLanguage;
+43 
+45 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">int</emphasis>&#32;defaultFontSize;
+46 
+48 &#32;&#32;&#32;&#32;std::string&#32;currentTheme;
+49 
+51 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;savePaths;
+52 };
+53 
+54 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;SETTINGS_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

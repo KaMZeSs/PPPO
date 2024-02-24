@@ -1,0 +1,20 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__section_editor_8h_source" xml:lang="en-US">
+<title>SectionEditor.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;SECTION_EDITOR_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;SECTION_EDITOR_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;vector&gt;</emphasis>
+5 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+6 
+8 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_section_editor">SectionEditor</link>
+9 {
+10 <emphasis role="keyword">public</emphasis>:
+14 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_section_editor_1ac8723dff4d57d563afdd98e3e63b84eb">editSectionName</link>(<emphasis role="keywordtype">int</emphasis>&#32;index,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;newName);
+15 
+16 <emphasis role="keyword">private</emphasis>:
+18 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;sections;
+19 };
+20 
+21 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;SECTION_EDITOR_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>

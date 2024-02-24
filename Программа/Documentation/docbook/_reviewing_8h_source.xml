@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<section xmlns="http://docbook.org/ns/docbook" version="5.0" xmlns:xlink="http://www.w3.org/1999/xlink" xml:id="__reviewing_8h_source" xml:lang="en-US">
+<title>Reviewing.h</title>
+<programlisting linenumbering="unnumbered">1 <emphasis role="preprocessor">#ifndef&#32;REVIEWING_H</emphasis>
+2 <emphasis role="preprocessor">#define&#32;REVIEWING_H</emphasis>
+3 
+4 <emphasis role="preprocessor">#include&#32;&lt;string&gt;</emphasis>
+5 
+7 <emphasis role="keyword">class&#32;</emphasis><link linkend="_class_reviewing">Reviewing</link>
+8 {
+9 <emphasis role="keyword">public</emphasis>:
+13 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">double</emphasis>&#32;<link linkend="_class_reviewing_1aab3fe27139bb299d829599ec73239bd4">checkReadability</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;text);
+14 
+15 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Проверяет&#32;орфографию&#32;в&#32;тексте</emphasis>
+16 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Вход:&#32;текст&#32;заметки&#32;(text)</emphasis>
+17 &#32;&#32;&#32;&#32;<emphasis role="comment">//&#32;Выход:&#32;список&#32;ошибок&#32;орфографии</emphasis>
+18 
+22 &#32;&#32;&#32;&#32;std::vector&lt;std::string&gt;&#32;<link linkend="_class_reviewing_1a0f58a71fd7bfe15a2bb88b787b4b471a">checkSpelling</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;text);
+23 
+28 &#32;&#32;&#32;&#32;std::string&#32;<link linkend="_class_reviewing_1afd2d80caf7e23f741aef9e5ea4d12c63">translateText</link>(<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;text,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;language);
+29 
+33 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">void</emphasis>&#32;<link linkend="_class_reviewing_1a9d3f07c0c3a66c1c08ef2242c8eddef0">setPassword</link>(<emphasis role="keywordtype">int</emphasis>&#32;pageIndex,&#32;<emphasis role="keyword">const</emphasis>&#32;std::string&#32;&amp;password);
+34 
+35 <emphasis role="keyword">private</emphasis>:
+37 &#32;&#32;&#32;&#32;<emphasis role="keywordtype">double</emphasis>&#32;readabilityScore;
+38 };
+39 
+40 <emphasis role="preprocessor">#endif&#32;</emphasis><emphasis role="comment">/*&#32;REVIEWING_H&#32;*/</emphasis><emphasis role="preprocessor"></emphasis>
+</programlisting></section>
