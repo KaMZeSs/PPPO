@@ -4,23 +4,27 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяет пользователю создавать и редактировать математические уравнения на странице с помощью специального редактора
 class Equation
 {
 public:
-    // Создает новое уравнение
-    // Вход: уравнение (equation)
-    void createEquation(const std::string &equation);
+    /// @brief Создает новое уравнение
+    /// @param equation Строка, представляющая уравнение
+    /// @returns Номер уравнения
+    int createEquation(const std::string &equation);
 
-    // Редактирует указанное уравнение
-    // Вход: индекс уравнения (index), новое уравнение (newEquation)
+    /// @brief Редактирует указанное уравнение
+    /// @param index Индекс уравнения
+    /// @param newEquation Новое уравнение
     void editEquation(int index, const std::string &newEquation);
 
-    // Удаляет указанное уравнение
-    // Вход: индекс уравнения (index)
+    /// @brief Удаляет указанное уравнение
+    /// @param index индекс уравнения
     void deleteEquation(int index);
 
 private:
-    std::vector<std::string> equations;           // Список уравнений
+    /// @brief Список уравнений
+    std::vector<std::string> equations;
 };
 
 #endif /* COMPLEX_OBJECTS_EDITOR_H */

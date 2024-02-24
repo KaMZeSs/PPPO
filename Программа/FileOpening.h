@@ -3,16 +3,18 @@
 
 #include <string>
 
+/// @brief Позволяет пользователям открывать уже существующие файлы с заметками для дальнейшего редактирования
 class FileOpening
 {
 public:
-    // Открывает существующий файл
-    // Вход: имя файла (name)
-    // Выход: true, если файл успешно открыт, false в противном случае
+    /// @brief Открывает существующий файл
+    /// @param name Имя файла
+    /// @return true, если файл успешно открыт, false в противном случае
     bool openFile(const std::string &name);
 
 private:
-    std::string fileName; // Имя открываемого файла
+    /// @brief Имя открываемого файла
+    std::string fileName;
 };
 
 #endif /* FILE_OPENING_H */

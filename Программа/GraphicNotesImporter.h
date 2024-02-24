@@ -5,12 +5,14 @@
 #include <vector>
 #include "GraphicNotes.h"
 
+/// @brief Позволяет пользователю добавлять существующие изображения на страницу в качестве графических заметок
 class GraphicNotesImporter
 {
 public:
-    // Создает новую графическую заметку изображения
-    // Вход: путь к изображению (imagePath)
-    GraphicNote createImageNote(const std::string &imagePath);
+    /// @brief Импортирует изображение в виде заметки
+    /// @param imagePath Путь к изображению
+    /// @return Графическая заметка
+    GraphicNote importImageNote(const std::string &imagePath);
 };
 
 #endif /* GRAPHIC_NOTES_H */

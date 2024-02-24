@@ -5,11 +5,13 @@
 #include <vector>
 #include "TextNote.h"
 
+/// @brief Редактор текстовых заметок
 class TextNotesEditor
 {
 public:
-    // Редактирует указанную текстовую заметку
-    // Вход: индекс заметки (index), новый текст (newText)
+    /// @brief Редактирует указанную текстовую заметку
+    /// @param textNote Индекс заметки
+    /// @param newText Новый текст
     void editTextNote(TextNote textNote, const std::string &newText);
 };
 

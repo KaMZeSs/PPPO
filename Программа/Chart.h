@@ -4,23 +4,27 @@
 #include <string>
 #include <vector>
 
+/// @brief Обеспечивает возможность создания и редактирования диаграмм различных типов для визуализации данных на странице
 class Chart
 {
 public:
-    // Создает новую диаграмму с указанными данными
-    // Вход: данные для диаграммы (data)
-    void createChart(const std::vector<double> &data);
+    /// @brief Создает новую диаграмму с указанными данными
+    /// @param data данные для диаграммы
+    /// @return Номер диаграммы
+    int createChart(const std::vector<double> &data);
 
-    // Редактирует указанную диаграмму
-    // Вход: индекс диаграммы (index), новые данные (newData)
+    /// @brief Редактирует указанную диаграмму
+    /// @param index индекс диаграммы
+    /// @param newData Новые данные
     void editChart(int index, const std::vector<double> &newData);
 
-    // Удаляет указанную диаграмму
-    // Вход: индекс диаграммы (index)
+    /// @brief Удаляет указанную диаграмму
+    /// @param index индекс диаграммы
     void deleteChart(int index);
 
 private:
-    std::vector<std::vector<double>> charts;      // Список диаграмм
+    /// @brief Список диаграмм
+    std::vector<std::vector<double>> charts;
 };
 
 #endif /* COMPLEX_OBJECTS_EDITOR_H */

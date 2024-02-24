@@ -5,11 +5,13 @@
 #include <vector>
 #include "GraphicNotes.h"
 
+/// @brief Позволяет пользователю редактировать добавленные изображения, включая их обрезку или дополнительное рисование поверх них
 class GraphicNotesEditor
 {
 public:
-    // Редактирует указанную графическую заметку
-    // Вход: индекс заметки (index), новый путь к изображению (newImagePath)
+    /// @brief Редактирует указанную графическую заметку
+    /// @param note Индекс заметки
+    /// @param newImagePath Новый путь к изображению
     void editImageNote(GraphicNote note, const std::string &newImagePath);
 };
 

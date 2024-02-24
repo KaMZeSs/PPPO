@@ -4,12 +4,15 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяет пользователю добавлять и редактировать графические элементы на странице, такие как изображения и рисунки
 class GraphicNote
 {
-public:
-
 private:
-    std::vector<std::string> imageNotes; // Список путей к изображениям
+    /// @brief Список путей к изображениям
+    std::vector<std::string> imageNotes;
+
+    /// @brief Список пикселей изображения
+    std::vector<std::byte> pixels;
 };
 
 #endif /* GRAPHIC_NOTES_H */

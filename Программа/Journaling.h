@@ -4,19 +4,21 @@
 #include <string>
 #include <vector>
 
+/// @brief Предоставляет функции для ведения лога всех изменений в книге, поиска изменений по автору и контроля версий
 class Journaling
 {
 public:
-    // Сохраняет запись об изменении
-    // Вход: описание изменения (description)
+    /// @brief Сохраняет запись об изменении
+    /// @param description Описание изменения
     void logChange(const std::string &description);
 
-    // Возвращает список всех изменений
-    // Выход: вектор строк с описаниями изменений
+    /// @brief Возвращает список всех изменений
+    /// @return Вектор строк с описаниями изменений
     std::vector<std::string> getAllChanges();
 
 private:
-    std::vector<std::string> changesLog; // Журнал изменений
+    /// @brief Журнал изменений
+    std::vector<std::string> changesLog;
 };
 
 #endif /* JOURNALING_H */

@@ -4,19 +4,22 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяет пользователю создавать и редактировать ссылки на интернет-источники прямо на странице
 class Link
 {
 public:
-    // Создает новую таблицу с указанным количеством строк и столбцов
-    // Вход: количество строк (rows), количество столбцов (columns)
-    void addLink(std::string link);
+    /// @brief Создает новую ссылку
+    /// @param link Адрес ссылки
+    /// @return Номер ссылки на странице
+    int addLink(std::string link);
 
-    // Удаляет указанную таблицу
-    // Вход: индекс таблицы (index)
+    /// @brief Удаляет указанную ссылку
+    /// @param index Индекс ссылки
     void deleteLink(int index);
 
 private:
-    std::vector<Link> links; // Список таблиц
+    /// @brief Список ссылок
+    std::vector<Link> links;
 };
 
 #endif /* COMPLEX_OBJECTS_EDITOR_H */

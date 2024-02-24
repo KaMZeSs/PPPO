@@ -3,16 +3,18 @@
 
 #include <string>
 
+/// @brief Позволяет создавать новые файлы для хранения заметок
 class FileCreation
 {
 public:
-    // Создает новый файл с указанным именем
-    // Вход: имя файла (name)
-    // Выход: true, если файл успешно создан, false в противном случае
+    /// @brief Создает новый файл с указанным именем
+    /// @param name имя файла
+    /// @return true, если файл успешно создан, иначе false
     bool createFile(const std::string &name);
 
 private:
-    std::string fileName; // Имя создаваемого файла
+    /// @brief Имя создаваемого файла
+    std::string fileName;
 };
 
 #endif /* FILE_CREATION_H */

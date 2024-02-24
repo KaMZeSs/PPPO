@@ -4,23 +4,25 @@
 #include <string>
 #include <vector>
 
+/// @brief Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее
 class SectionGroup
 {
 public:
-    // Добавляет новый раздел в группу разделов
-    // Вход: название раздела (name)
+    /// @brief Добавляет новый раздел в группу разделов
+    /// @param name Название раздела
     void addSection(const std::string &name);
 
-    // Удаляет указанный раздел из группы
-    // Вход: индекс раздела (index)
+    /// @brief Удаляет указанный раздел из группы
+    /// @param index Индекс раздела
     void removeSection(int index);
 
-    // Возвращает список всех разделов в группе
-    // Выход: вектор строк с названиями разделов
+    /// @brief Возвращает список всех разделов в группе
+    /// @return Вектор строк с названиями разделов
     std::vector<std::string> getAllSections();
 
 private:
-    std::vector<std::string> sections; // Список разделов в группе
+    /// @brief Список разделов в группе
+    std::vector<std::string> sections;
 };
 
 #endif /* SECTION_GROUP_H */

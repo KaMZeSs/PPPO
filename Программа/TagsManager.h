@@ -4,24 +4,28 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяют классифицировать блоки заметок с помощью тегов для более удобного поиска и организации информации.
 class TagsManager
 {
 public:
-    // Добавляет тег к указанной заметке
-    // Вход: индекс заметки (index), тег (tag)
+    /// @brief Добавляет тег к указанной заметке
+    /// @param index Индекс заметки
+    /// @param tag Тег
     void addTag(int index, const std::string &tag);
 
-    // Удаляет тег из указанной заметки
-    // Вход: индекс заметки (index), тег (tag)
+    /// @brief Удаляет тег из указанной заметки
+    /// @param index Индекс заметки
+    /// @param tag Тег
     void removeTag(int index, const std::string &tag);
 
-    // Возвращает все теги для указанной заметки
-    // Вход: индекс заметки (index)
-    // Выход: вектор строк с тегами
+    /// @brief Возвращает все теги для указанной заметки
+    /// @param index Индекс заметки
+    /// @return Вектор строк с тегами
     std::vector<std::string> getTagsForNote(int index);
 
 private:
-    std::vector<std::vector<std::string>> noteTags; // Теги для каждой заметки
+    /// @brief Теги для каждой заметки
+    std::vector<std::vector<std::string>> noteTags;
 };
 
 #endif /* TAGS_MANAGER_H */

@@ -4,15 +4,17 @@
 #include <vector>
 #include <string>
 
+/// @brief Позволяет пользователю выбирать и изменять цвет фона страницы для создания комфортной рабочей обстановки.
 class BackgroundColor
 {
 public:
-    // Устанавливает цвет фона страницы
-    // Вход: цвет фона (backgroundColor)
+    /// @brief Устанавливает цвет фона страницы
+    /// @param backgroundColor цвет фона
     void setBackgroundColor(const std::string &backgroundColor);
 
 private:
-    std::string bgColor; // Цвет фона страницы
+    /// @brief Цвет фона страницы
+    std::string bgColor;
 };
 
 #endif /* BLOCK_DISPLAY_H */

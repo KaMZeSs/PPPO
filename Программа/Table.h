@@ -4,23 +4,27 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяет пользователю создавать и редактировать таблицы на странице для организации данных в табличной форме
 class Table
 {
 public:
-    // Создает новую таблицу с указанным количеством строк и столбцов
-    // Вход: количество строк (rows), количество столбцов (columns)
+    /// @brief Создает новую таблицу с указанным количеством строк и столбцов
+    /// @param rows Количество строк
+    /// @param columns Количество столбцов
     void createTable(int rows, int columns);
 
-    // Редактирует указанную таблицу
-    // Вход: индекс таблицы (index), новые данные (newData)
+    /// @brief Редактирует указанную таблицу
+    /// @param index Индекс таблицы
+    /// @param newData Новые данные
     void editTable(int index, const std::vector<std::vector<std::string>> &newData);
 
-    // Удаляет указанную таблицу
-    // Вход: индекс таблицы (index)
+    /// @brief Удаляет указанную таблицу
+    /// @param index Индекс таблицы
     void deleteTable(int index);
 
 private:
-    std::vector<std::vector<std::string>> tables; // Список таблиц
+    /// @brief Список таблиц
+    std::vector<std::vector<std::string>> tables;
 };
 
 #endif /* COMPLEX_OBJECTS_EDITOR_H */

@@ -4,43 +4,51 @@
 #include <string>
 #include <vector>
 
+/// @brief Предоставляет пользователю доступ к настройкам приложения, позволяя настраивать его поведение и интерфейс в соответствии с предпочтениями пользователя
 class Settings
 {
 public:
-    // Устанавливает новый язык приложения
-    // Вход: новый язык (language)
-    // Выход: true, если язык успешно изменен, false в противном случае
+    /// @brief Устанавливает новый язык приложения
+    /// @param language Новый язык
+    /// @return true, если язык успешно изменен, false в противном случае
     bool setLanguage(const std::string &language);
 
-    // Устанавливает размер шрифта по умолчанию
-    // Вход: размер шрифта (fontSize)
-    // Выход: true, если размер шрифта успешно изменен, false в противном случае
+    /// @brief Устанавливает размер шрифта по умолчанию
+    /// @param fontSize Размер шрифта
+    /// @return true, если размер шрифта успешно изменен, false в противном случае
     bool setDefaultFontSize(int fontSize);
 
-    // Устанавливает тему оформления приложения
-    // Вход: название темы (themeName)
-    // Выход: true, если тема успешно установлена, false в противном случае
+    /// @brief Устанавливает тему оформления приложения
+    /// @param themeName Название темы
+    /// @return true, если тема успешно установлена, false в противном случае
     bool setTheme(const std::string &themeName);
 
-    // Добавляет новый путь для сохранения файлов
-    // Вход: путь (path)
-    // Выход: true, если путь успешно добавлен, false в противном случае
+    /// @brief Добавляет новый путь для сохранения файлов
+    /// @param path Путь к папке
+    /// @return true, если путь успешно добавлен, false в противном случае
     bool addSavePath(const std::string &path);
 
-    // Удаляет указанный путь для сохранения файлов
-    // Вход: путь (path)
-    // Выход: true, если путь успешно удален, false в противном случае
+    /// @brief Удаляет указанный путь для сохранения файлов
+    /// @param path Путь к папке
+    /// @return true, если путь успешно удален, false в противном случае
     bool removeSavePath(const std::string &path);
 
-    // Возвращает список доступных тем оформления
-    // Выход: вектор строк с названиями тем
+    /// @brief Возвращает список доступных тем оформления
+    /// @return Вектор строк с названиями тем
     std::vector<std::string> getAvailableThemes();
 
 private:
-    std::string currentLanguage;        // Текущий язык приложения
-    int defaultFontSize;                // Размер шрифта по умолчанию
-    std::string currentTheme;           // Текущая тема оформления
-    std::vector<std::string> savePaths; // Список путей для сохранения файлов
+    /// @brief Текущий язык приложения
+    std::string currentLanguage;
+
+    /// @brief Размер шрифта по умолчанию
+    int defaultFontSize;
+
+    /// @brief Текущая тема оформления
+    std::string currentTheme;
+
+    /// @brief Список путей для сохранения файлов
+    std::vector<std::string> savePaths;
 };
 
 #endif /* SETTINGS_H */

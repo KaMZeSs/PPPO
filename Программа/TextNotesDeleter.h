@@ -5,11 +5,12 @@
 #include <vector>
 #include "TextNote.h"
 
+/// @brief Удаляет текстовые заметки
 class TextNotesDeleter
 {
 public:
-    // Удаляет указанную текстовую заметку
-    // Вход: индекс заметки (index)
+    /// @brief Удаляет указанную текстовую заметку
+    /// @param textNote Индекс заметки
     void deleteTextNote(TextNote textNote);
 };
 

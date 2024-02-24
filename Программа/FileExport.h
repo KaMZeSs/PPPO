@@ -3,16 +3,18 @@
 
 #include <string>
 
+/// @brief Обеспечивает возможность экспорта текущего файла с заметками в различные форматы, такие как PDF, XPS и DOCX, для обмена или публикации
 class FileExport
 {
 public:
-    // Экспортирует текущий файл в указанный формат
-    // Вход: формат экспорта (format)
-    // Выход: true, если экспорт успешно завершен, false в противном случае
+    /// @brief Экспортирует текущий файл в указанный формат
+    /// @param format Формат экспорта
+    /// @return true, если экспорт успешно завершен, false в противном случае
     bool exportFile(const std::string &format);
 
 private:
-    std::string exportFormat; // Формат экспорта файла
+    /// @brief Формат экспорта файла
+    std::string exportFormat;
 };
 
 #endif /* FILE_EXPORT_H */

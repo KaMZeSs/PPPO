@@ -4,15 +4,18 @@
 #include <vector>
 #include <string>
 
+/// @brief Позволяет пользователю редактировать список разделов, включая добавление, удаление и перемещение разделов для более удобной организации заметок
 class SectionEditor
 {
 public:
-    // Редактирует название указанного раздела
-    // Вход: индекс раздела (index), новое название (newName)
+    /// @brief Редактирует название указанного раздела
+    /// @param index Индекс раздела
+    /// @param newName Новое название
     void editSectionName(int index, const std::string &newName);
 
 private:
-    std::vector<std::string> sections; // Список разделов для редактирования
+    /// @brief Список разделов для редактирования
+    std::vector<std::string> sections;
 };
 
 #endif /* SECTION_EDITOR_H */

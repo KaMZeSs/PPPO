@@ -4,15 +4,17 @@
 #include <vector>
 #include <string>
 
+/// @brief Позволяет пользователю изменять масштаб отображения содержимого страницы для лучшего просмотра и работы
 class PageScale
 {
 public:
-    // Устанавливает масштаб отображения страницы
-    // Вход: масштаб (scale)
+    /// @brief Устанавливает масштаб отображения страницы
+    /// @param scale Масштаб
     void setScale(int scale);
 
 private:
-    int scale;           // Масштаб отображения страницы
+    /// @brief Масштаб отображения страницы
+    int scale;
 };
 
 #endif /* BLOCK_DISPLAY_H */

@@ -5,11 +5,13 @@
 #include <vector>
 #include "TextNote.h"
 
+/// @brief Создатель текстовых заметок
 class TextNotesCreator
 {
 public:
-    // Создает новую текстовую заметку
-    // Вход: текст заметки (text)
+    /// @brief Создает новую текстовую заметку
+    /// @param text текст заметки
+    /// @return Объект текстовой заметки
     TextNote createTextNote(const std::string &text);
 };
 

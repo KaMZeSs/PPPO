@@ -4,23 +4,25 @@
 #include <vector>
 #include <string>
 
+/// @brief Группирует разделы для более удобной навигации и организации заметок, содержит название группы разделов и список разделов, входящих в нее
 class SectionTree
 {
 public:
-    // Добавляет новый раздел в дерево разделов
-    // Вход: название раздела (name)
+    /// @brief Добавляет новый раздел в дерево разделов
+    /// @param name Название раздела
     void addSection(const std::string &name);
 
-    // Удаляет указанный раздел из дерева
-    // Вход: индекс раздела (index)
+    /// @brief Удаляет указанный раздел из дерева
+    /// @param index Индекс раздела
     void removeSection(int index);
 
-    // Возвращает список всех разделов
-    // Выход: вектор строк с названиями разделов
+    /// @brief Возвращает список всех разделов
+    /// @return Вектор строк с названиями разделов
     std::vector<std::string> getAllSections();
 
 private:
-    std::vector<std::string> sections; // Список разделов
+    /// @brief Список разделов
+    std::vector<std::string> sections;
 };
 
 #endif /* SECTION_TREE_H */

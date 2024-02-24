@@ -4,21 +4,26 @@
 #include <string>
 #include <vector>
 
+/// @brief Позволяет пользователю импортировать файлы документов различных форматов (например, DOCX, PDF) на страницу в виде распечаток
 class Document
 {
 public:
-    // Создает новую таблицу с указанным количеством строк и столбцов
-    // Вход: количество строк (rows), количество столбцов (columns)
-    void addDocument(const std::vector<byte> &data);
+    /// @brief Добавляет новый документ
+    /// @param data Данные файла
+    /// @returns Номер документа
+    int addDocument(const std::vector<byte> &data);
 
-    // Удаляет указанную таблицу
-    // Вход: индекс таблицы (index)
+    /// @brief Удаляет указанный документ
+    /// @param index Номер документа
     void deleteDocument(int index);
 
+    /// @brief Отображает указанный документ в виде распечатки
+    /// @param index Номер документа
     void viewDocument(int index);
 
 private:
-    std::vector<Document> documents;      // Список документов
+    /// @brief Список документов
+    std::vector<Document> documents;
 };
 
 #endif /* COMPLEX_OBJECTS_EDITOR_H */
